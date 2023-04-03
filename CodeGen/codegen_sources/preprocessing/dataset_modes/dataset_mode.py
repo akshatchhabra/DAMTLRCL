@@ -31,6 +31,8 @@ from codegen_sources.preprocessing.lang_processors.java_processor import JavaPro
 from codegen_sources.preprocessing.lang_processors.python_processor import (
     PythonProcessor,
 )
+from codegen_sources.preprocessing.lang_processors.csharp_processor import CSharpProcessor
+from codegen_sources.preprocessing.lang_processors.ruby_processor import RubyProcessor
 from codegen_sources.preprocessing.lang_processors.lang_processor import LangProcessor
 from codegen_sources.preprocessing.lang_processors.python_processor import (
     PythonProcessor,
