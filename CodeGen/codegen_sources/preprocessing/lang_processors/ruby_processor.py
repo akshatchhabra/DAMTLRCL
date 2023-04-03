@@ -5,6 +5,16 @@
 # LICENSE file in the root directory of this source tree.
 #
 
+from codegen_sources.preprocessing.lang_processors.tree_sitter_processor import (
+    TreeSitterLangProcessor,
+    NEW_LINE,
+)
+from codegen_sources.preprocessing.lang_processors.tokenization_utils import (
+    ind_iter,
+    NEWLINE_TOKEN,
+)
+import re
+
 IDENTIFIERS = {"identifier", "field_identifier"}
 
 RUBY_TOKEN2CHAR =  {"STOKEN00": "#",

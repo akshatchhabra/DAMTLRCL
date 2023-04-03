@@ -52,7 +52,10 @@ class TreeSitterLangProcessor(LangProcessor):
                     # Include one or more languages
                     [str(repo_path)],
                 )
-            language = Language(lib_path, self.language)
+            if self.language == "c-sharp":
+                language = Language(lib_path, "c_sharp")
+            else:
+                language = Language(lib_path, self.language)
             self.parser = Parser()
             self.parser.set_language(language)
 
