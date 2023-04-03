@@ -1,0 +1,6 @@
+Loading miniconda version 22.11.1-1
+INFO - 04/03/23 05:22:18 - 0:00:00 - Dataset pipeline for /work/pi_adrozdov_umass_edu/transLRPL/final_dataset/train_dataset_json
+
+
+INFO - 04/03/23 05:22:18 - 0:00:00 - ========== Extract and Tokenize ===========
+INFO - 04/03/23 05:22:26 - 0:00:08 - csharp ruby: tokenizing and extracting parallel functions in 3700 json files ...
