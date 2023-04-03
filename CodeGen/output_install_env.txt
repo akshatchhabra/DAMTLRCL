@@ -1,0 +1,1007 @@
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... failed with repodata from current_repodata.json, will retry with next repodata source.
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /home/vbojanapally_umass_edu/.conda/envs/transCoder_env
+
+  added / updated specs:
+    - python=3.7.6
+
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      conda-forge/linux-64::_libgcc_mutex-0.1-conda_forge 
+  _openmp_mutex      conda-forge/linux-64::_openmp_mutex-4.5-2_gnu 
+  ca-certificates    conda-forge/linux-64::ca-certificates-2022.12.7-ha878542_0 
+  ld_impl_linux-64   conda-forge/linux-64::ld_impl_linux-64-2.40-h41732ed_0 
+  libffi             conda-forge/linux-64::libffi-3.2.1-he1b5a44_1007 
+  libgcc-ng          conda-forge/linux-64::libgcc-ng-12.2.0-h65d4601_19 
+  libgomp            conda-forge/linux-64::libgomp-12.2.0-h65d4601_19 
+  libsqlite          conda-forge/linux-64::libsqlite-3.40.0-h753d276_0 
+  libstdcxx-ng       conda-forge/linux-64::libstdcxx-ng-12.2.0-h46fd767_19 
+  libzlib            conda-forge/linux-64::libzlib-1.2.13-h166bdaf_4 
+  ncurses            conda-forge/linux-64::ncurses-6.3-h27087fc_1 
+  openssl            conda-forge/linux-64::openssl-1.1.1t-h0b41bf4_0 
+  pip                conda-forge/noarch::pip-23.0.1-pyhd8ed1ab_0 
+  python             conda-forge/linux-64::python-3.7.6-cpython_h8356626_6 
+  python_abi         conda-forge/linux-64::python_abi-3.7-2_cp37m 
+  readline           conda-forge/linux-64::readline-8.2-h8228510_1 
+  setuptools         conda-forge/noarch::setuptools-67.6.1-pyhd8ed1ab_0 
+  sqlite             conda-forge/linux-64::sqlite-3.40.0-h4ff8645_0 
+  tk                 conda-forge/linux-64::tk-8.6.12-h27826a3_0 
+  wheel              conda-forge/noarch::wheel-0.40.0-pyhd8ed1ab_0 
+  xz                 conda-forge/linux-64::xz-5.2.6-h166bdaf_0 
+  zlib               conda-forge/linux-64::zlib-1.2.13-h166bdaf_4 
+
+
+Proceed ([y]/n)? 
+
+Downloading and Extracting Packages
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+#
+# To activate this environment, use
+#
+#     $ conda activate transCoder_env
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+Looking in indexes: https://pypi.org/simple, https://download.pytorch.org/whl/cu117
+Collecting torch==1.13.1+cu117
+  Using cached https://download.pytorch.org/whl/cu117/torch-1.13.1%2Bcu117-cp37-cp37m-linux_x86_64.whl (1801.9 MB)
+Collecting torchvision==0.14.1+cu117
+  Using cached https://download.pytorch.org/whl/cu117/torchvision-0.14.1%2Bcu117-cp37-cp37m-linux_x86_64.whl (24.3 MB)
+Collecting torchaudio==0.13.1
+  Using cached https://download.pytorch.org/whl/cu117/torchaudio-0.13.1%2Bcu117-cp37-cp37m-linux_x86_64.whl (4.2 MB)
+Collecting typing-extensions
+  Using cached typing_extensions-4.5.0-py3-none-any.whl (27 kB)
+Collecting requests
+  Using cached requests-2.28.2-py3-none-any.whl (62 kB)
+Collecting pillow!=8.3.*,>=5.3.0
+  Using cached Pillow-9.5.0-cp37-cp37m-manylinux_2_28_x86_64.whl (3.4 MB)
+Collecting numpy
+  Using cached https://download.pytorch.org/whl/numpy-1.21.6-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (15.7 MB)
+Collecting urllib3<1.27,>=1.21.1
+  Using cached urllib3-1.26.15-py2.py3-none-any.whl (140 kB)
+Collecting certifi>=2017.4.17
+  Using cached https://download.pytorch.org/whl/certifi-2022.12.7-py3-none-any.whl (155 kB)
+Collecting idna<4,>=2.5
+  Using cached https://download.pytorch.org/whl/idna-3.4-py3-none-any.whl (61 kB)
+Collecting charset-normalizer<4,>=2
+  Using cached charset_normalizer-3.1.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (171 kB)
+Installing collected packages: urllib3, typing-extensions, pillow, numpy, idna, charset-normalizer, certifi, torch, requests, torchvision, torchaudio
+Successfully installed certifi-2022.12.7 charset-normalizer-3.1.0 idna-3.4 numpy-1.21.6 pillow-9.5.0 requests-2.28.2 torch-1.13.1+cu117 torchaudio-0.13.1+cu117 torchvision-0.14.1+cu117 typing-extensions-4.5.0 urllib3-1.26.15
+Collecting six
+  Using cached six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting scikit-learn
+  Using cached scikit_learn-1.0.2-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (24.8 MB)
+Collecting stringcase
+  Using cached stringcase-1.2.0-py3-none-any.whl
+Collecting transformers
+  Using cached transformers-4.27.4-py3-none-any.whl (6.8 MB)
+Collecting ply
+  Using cached ply-3.11-py2.py3-none-any.whl (49 kB)
+Collecting slimit
+  Using cached slimit-0.8.1-py3-none-any.whl
+Collecting astunparse
+  Using cached astunparse-1.6.3-py2.py3-none-any.whl (12 kB)
+Collecting submitit
+  Using cached submitit-1.4.5-py3-none-any.whl (73 kB)
+Collecting threadpoolctl>=2.0.0
+  Using cached threadpoolctl-3.1.0-py3-none-any.whl (14 kB)
+Collecting joblib>=0.11
+  Using cached joblib-1.2.0-py3-none-any.whl (297 kB)
+Requirement already satisfied: numpy>=1.14.6 in /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages (from scikit-learn) (1.21.6)
+Collecting scipy>=1.1.0
+  Using cached scipy-1.7.3-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (38.1 MB)
+Collecting tokenizers!=0.11.3,<0.14,>=0.11.1
+  Using cached tokenizers-0.13.2-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (7.6 MB)
+Collecting regex!=2019.12.17
+  Using cached regex-2022.10.31-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (757 kB)
+Collecting filelock
+  Using cached filelock-3.10.7-py3-none-any.whl (10 kB)
+Collecting tqdm>=4.27
+  Using cached tqdm-4.65.0-py3-none-any.whl (77 kB)
+Collecting importlib-metadata
+  Using cached importlib_metadata-6.1.0-py3-none-any.whl (21 kB)
+Collecting pyyaml>=5.1
+  Using cached PyYAML-6.0-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl (596 kB)
+Requirement already satisfied: requests in /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages (from transformers) (2.28.2)
+Collecting packaging>=20.0
+  Using cached packaging-23.0-py3-none-any.whl (42 kB)
+Collecting huggingface-hub<1.0,>=0.11.0
+  Using cached huggingface_hub-0.13.3-py3-none-any.whl (199 kB)
+Requirement already satisfied: wheel<1.0,>=0.23.0 in /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages (from astunparse) (0.40.0)
+Requirement already satisfied: typing_extensions>=3.7.4.2 in /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages (from submitit) (4.5.0)
+Collecting cloudpickle>=1.2.1
+  Using cached cloudpickle-2.2.1-py3-none-any.whl (25 kB)
+Collecting zipp>=0.5
+  Using cached zipp-3.15.0-py3-none-any.whl (6.8 kB)
+Requirement already satisfied: certifi>=2017.4.17 in /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages (from requests->transformers) (2022.12.7)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages (from requests->transformers) (1.26.15)
+Requirement already satisfied: charset-normalizer<4,>=2 in /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages (from requests->transformers) (3.1.0)
+Requirement already satisfied: idna<4,>=2.5 in /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages (from requests->transformers) (3.4)
+Installing collected packages: tokenizers, stringcase, ply, zipp, tqdm, threadpoolctl, slimit, six, scipy, regex, pyyaml, packaging, joblib, filelock, cloudpickle, submitit, scikit-learn, importlib-metadata, astunparse, huggingface-hub, transformers
+Successfully installed astunparse-1.6.3 cloudpickle-2.2.1 filelock-3.10.7 huggingface-hub-0.13.3 importlib-metadata-6.1.0 joblib-1.2.0 packaging-23.0 ply-3.11 pyyaml-6.0 regex-2022.10.31 scikit-learn-1.0.2 scipy-1.7.3 six-1.16.0 slimit-0.8.1 stringcase-1.2.0 submitit-1.4.5 threadpoolctl-3.1.0 tokenizers-0.13.2 tqdm-4.65.0 transformers-4.27.4 zipp-3.15.0
+Collecting cython
+  Using cached Cython-0.29.33-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl (1.9 MB)
+Installing collected packages: cython
+Successfully installed cython-0.29.33
+Compiling fastBPE/fastBPE.pyx because it depends on /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/Cython/Includes/libcpp/string.pxd.
+[1/1] Cythonizing fastBPE/fastBPE.pyx
+running install
+running bdist_egg
+running egg_info
+writing fastBPE.egg-info/PKG-INFO
+writing dependency_links to fastBPE.egg-info/dependency_links.txt
+writing top-level names to fastBPE.egg-info/top_level.txt
+reading manifest file 'fastBPE.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file 'fastBPE.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+running build_ext
+building 'fastBPE' extension
+gcc -pthread -B /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/compiler_compat -Wl,--sysroot=/ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -IfastBPE -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/include/python3.7m -c fastBPE/fastBPE.cpp -o build/temp.linux-x86_64-cpython-37/fastBPE/fastBPE.o -std=c++11 -Ofast -pthread
+g++ -pthread -B /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/compiler_compat -Wl,--sysroot=/ -pthread -shared -B /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/compiler_compat -L/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib -Wl,-rpath=/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib -Wl,--no-as-needed -Wl,--sysroot=/ build/temp.linux-x86_64-cpython-37/fastBPE/fastBPE.o -o build/lib.linux-x86_64-cpython-37/fastBPE.cpython-37m-x86_64-linux-gnu.so
+creating build/bdist.linux-x86_64/egg
+copying build/lib.linux-x86_64-cpython-37/fastBPE.cpython-37m-x86_64-linux-gnu.so -> build/bdist.linux-x86_64/egg
+creating stub loader for fastBPE.cpython-37m-x86_64-linux-gnu.so
+byte-compiling build/bdist.linux-x86_64/egg/fastBPE.py to fastBPE.cpython-37.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying fastBPE.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying fastBPE.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying fastBPE.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying fastBPE.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+writing build/bdist.linux-x86_64/egg/EGG-INFO/native_libs.txt
+creating 'dist/fastBPE-0.1.1-py3.7-linux-x86_64.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing fastBPE-0.1.1-py3.7-linux-x86_64.egg
+creating /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/fastBPE-0.1.1-py3.7-linux-x86_64.egg
+Extracting fastBPE-0.1.1-py3.7-linux-x86_64.egg to /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages
+Adding fastBPE 0.1.1 to easy-install.pth file
+
+Installed /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/fastBPE-0.1.1-py3.7-linux-x86_64.egg
+Processing dependencies for fastBPE==0.1.1
+Finished processing dependencies for fastBPE==0.1.1
+
+
+torch.__version__  = 1.13.1+cu117
+
+
+
+Compiling cuda extensions with
+nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2022 NVIDIA Corporation
+Built on Tue_May__3_18:49:52_PDT_2022
+Cuda compilation tools, release 11.7, V11.7.64
+Build cuda_11.7.r11.7/compiler.31294372_0
+from /modules/apps/cuda/11.7.0/bin
+
+running install
+running bdist_egg
+running egg_info
+creating apex.egg-info
+writing apex.egg-info/PKG-INFO
+writing dependency_links to apex.egg-info/dependency_links.txt
+writing requirements to apex.egg-info/requires.txt
+writing top-level names to apex.egg-info/top_level.txt
+writing manifest file 'apex.egg-info/SOURCES.txt'
+reading manifest file 'apex.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'apex.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib.linux-x86_64-cpython-37
+creating build/lib.linux-x86_64-cpython-37/apex
+copying apex/__init__.py -> build/lib.linux-x86_64-cpython-37/apex
+copying apex/_autocast_utils.py -> build/lib.linux-x86_64-cpython-37/apex
+creating build/lib.linux-x86_64-cpython-37/apex/RNN
+copying apex/RNN/RNNBackend.py -> build/lib.linux-x86_64-cpython-37/apex/RNN
+copying apex/RNN/__init__.py -> build/lib.linux-x86_64-cpython-37/apex/RNN
+copying apex/RNN/cells.py -> build/lib.linux-x86_64-cpython-37/apex/RNN
+copying apex/RNN/models.py -> build/lib.linux-x86_64-cpython-37/apex/RNN
+creating build/lib.linux-x86_64-cpython-37/apex/amp
+copying apex/amp/__init__.py -> build/lib.linux-x86_64-cpython-37/apex/amp
+copying apex/amp/__version__.py -> build/lib.linux-x86_64-cpython-37/apex/amp
+copying apex/amp/_amp_state.py -> build/lib.linux-x86_64-cpython-37/apex/amp
+copying apex/amp/_initialize.py -> build/lib.linux-x86_64-cpython-37/apex/amp
+copying apex/amp/_process_optimizer.py -> build/lib.linux-x86_64-cpython-37/apex/amp
+copying apex/amp/amp.py -> build/lib.linux-x86_64-cpython-37/apex/amp
+copying apex/amp/compat.py -> build/lib.linux-x86_64-cpython-37/apex/amp
+copying apex/amp/frontend.py -> build/lib.linux-x86_64-cpython-37/apex/amp
+copying apex/amp/handle.py -> build/lib.linux-x86_64-cpython-37/apex/amp
+copying apex/amp/opt.py -> build/lib.linux-x86_64-cpython-37/apex/amp
+copying apex/amp/rnn_compat.py -> build/lib.linux-x86_64-cpython-37/apex/amp
+copying apex/amp/scaler.py -> build/lib.linux-x86_64-cpython-37/apex/amp
+copying apex/amp/utils.py -> build/lib.linux-x86_64-cpython-37/apex/amp
+copying apex/amp/wrap.py -> build/lib.linux-x86_64-cpython-37/apex/amp
+creating build/lib.linux-x86_64-cpython-37/apex/contrib
+copying apex/contrib/__init__.py -> build/lib.linux-x86_64-cpython-37/apex/contrib
+creating build/lib.linux-x86_64-cpython-37/apex/fp16_utils
+copying apex/fp16_utils/__init__.py -> build/lib.linux-x86_64-cpython-37/apex/fp16_utils
+copying apex/fp16_utils/fp16_optimizer.py -> build/lib.linux-x86_64-cpython-37/apex/fp16_utils
+copying apex/fp16_utils/fp16util.py -> build/lib.linux-x86_64-cpython-37/apex/fp16_utils
+copying apex/fp16_utils/loss_scaler.py -> build/lib.linux-x86_64-cpython-37/apex/fp16_utils
+creating build/lib.linux-x86_64-cpython-37/apex/fused_dense
+copying apex/fused_dense/__init__.py -> build/lib.linux-x86_64-cpython-37/apex/fused_dense
+copying apex/fused_dense/fused_dense.py -> build/lib.linux-x86_64-cpython-37/apex/fused_dense
+creating build/lib.linux-x86_64-cpython-37/apex/mlp
+copying apex/mlp/__init__.py -> build/lib.linux-x86_64-cpython-37/apex/mlp
+copying apex/mlp/mlp.py -> build/lib.linux-x86_64-cpython-37/apex/mlp
+creating build/lib.linux-x86_64-cpython-37/apex/multi_tensor_apply
+copying apex/multi_tensor_apply/__init__.py -> build/lib.linux-x86_64-cpython-37/apex/multi_tensor_apply
+copying apex/multi_tensor_apply/multi_tensor_apply.py -> build/lib.linux-x86_64-cpython-37/apex/multi_tensor_apply
+creating build/lib.linux-x86_64-cpython-37/apex/normalization
+copying apex/normalization/__init__.py -> build/lib.linux-x86_64-cpython-37/apex/normalization
+copying apex/normalization/fused_layer_norm.py -> build/lib.linux-x86_64-cpython-37/apex/normalization
+creating build/lib.linux-x86_64-cpython-37/apex/optimizers
+copying apex/optimizers/__init__.py -> build/lib.linux-x86_64-cpython-37/apex/optimizers
+copying apex/optimizers/fused_adagrad.py -> build/lib.linux-x86_64-cpython-37/apex/optimizers
+copying apex/optimizers/fused_adam.py -> build/lib.linux-x86_64-cpython-37/apex/optimizers
+copying apex/optimizers/fused_lamb.py -> build/lib.linux-x86_64-cpython-37/apex/optimizers
+copying apex/optimizers/fused_mixed_precision_lamb.py -> build/lib.linux-x86_64-cpython-37/apex/optimizers
+copying apex/optimizers/fused_novograd.py -> build/lib.linux-x86_64-cpython-37/apex/optimizers
+copying apex/optimizers/fused_sgd.py -> build/lib.linux-x86_64-cpython-37/apex/optimizers
+creating build/lib.linux-x86_64-cpython-37/apex/parallel
+copying apex/parallel/LARC.py -> build/lib.linux-x86_64-cpython-37/apex/parallel
+copying apex/parallel/__init__.py -> build/lib.linux-x86_64-cpython-37/apex/parallel
+copying apex/parallel/distributed.py -> build/lib.linux-x86_64-cpython-37/apex/parallel
+copying apex/parallel/multiproc.py -> build/lib.linux-x86_64-cpython-37/apex/parallel
+copying apex/parallel/optimized_sync_batchnorm.py -> build/lib.linux-x86_64-cpython-37/apex/parallel
+copying apex/parallel/optimized_sync_batchnorm_kernel.py -> build/lib.linux-x86_64-cpython-37/apex/parallel
+copying apex/parallel/sync_batchnorm.py -> build/lib.linux-x86_64-cpython-37/apex/parallel
+copying apex/parallel/sync_batchnorm_kernel.py -> build/lib.linux-x86_64-cpython-37/apex/parallel
+creating build/lib.linux-x86_64-cpython-37/apex/transformer
+copying apex/transformer/__init__.py -> build/lib.linux-x86_64-cpython-37/apex/transformer
+copying apex/transformer/_ucc_util.py -> build/lib.linux-x86_64-cpython-37/apex/transformer
+copying apex/transformer/enums.py -> build/lib.linux-x86_64-cpython-37/apex/transformer
+copying apex/transformer/log_util.py -> build/lib.linux-x86_64-cpython-37/apex/transformer
+copying apex/transformer/microbatches.py -> build/lib.linux-x86_64-cpython-37/apex/transformer
+copying apex/transformer/parallel_state.py -> build/lib.linux-x86_64-cpython-37/apex/transformer
+copying apex/transformer/utils.py -> build/lib.linux-x86_64-cpython-37/apex/transformer
+creating build/lib.linux-x86_64-cpython-37/apex/amp/lists
+copying apex/amp/lists/__init__.py -> build/lib.linux-x86_64-cpython-37/apex/amp/lists
+copying apex/amp/lists/functional_overrides.py -> build/lib.linux-x86_64-cpython-37/apex/amp/lists
+copying apex/amp/lists/tensor_overrides.py -> build/lib.linux-x86_64-cpython-37/apex/amp/lists
+copying apex/amp/lists/torch_overrides.py -> build/lib.linux-x86_64-cpython-37/apex/amp/lists
+creating build/lib.linux-x86_64-cpython-37/apex/contrib/bottleneck
+copying apex/contrib/bottleneck/__init__.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/bottleneck
+copying apex/contrib/bottleneck/bottleneck.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/bottleneck
+copying apex/contrib/bottleneck/halo_exchangers.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/bottleneck
+copying apex/contrib/bottleneck/test.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/bottleneck
+creating build/lib.linux-x86_64-cpython-37/apex/contrib/clip_grad
+copying apex/contrib/clip_grad/__init__.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/clip_grad
+copying apex/contrib/clip_grad/clip_grad.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/clip_grad
+creating build/lib.linux-x86_64-cpython-37/apex/contrib/conv_bias_relu
+copying apex/contrib/conv_bias_relu/__init__.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/conv_bias_relu
+copying apex/contrib/conv_bias_relu/conv_bias_relu.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/conv_bias_relu
+creating build/lib.linux-x86_64-cpython-37/apex/contrib/cudnn_gbn
+copying apex/contrib/cudnn_gbn/__init__.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/cudnn_gbn
+copying apex/contrib/cudnn_gbn/batch_norm.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/cudnn_gbn
+creating build/lib.linux-x86_64-cpython-37/apex/contrib/fmha
+copying apex/contrib/fmha/__init__.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/fmha
+copying apex/contrib/fmha/fmha.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/fmha
+creating build/lib.linux-x86_64-cpython-37/apex/contrib/focal_loss
+copying apex/contrib/focal_loss/__init__.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/focal_loss
+copying apex/contrib/focal_loss/focal_loss.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/focal_loss
+creating build/lib.linux-x86_64-cpython-37/apex/contrib/groupbn
+copying apex/contrib/groupbn/__init__.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/groupbn
+copying apex/contrib/groupbn/batch_norm.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/groupbn
+creating build/lib.linux-x86_64-cpython-37/apex/contrib/index_mul_2d
+copying apex/contrib/index_mul_2d/__init__.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/index_mul_2d
+copying apex/contrib/index_mul_2d/index_mul_2d.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/index_mul_2d
+creating build/lib.linux-x86_64-cpython-37/apex/contrib/layer_norm
+copying apex/contrib/layer_norm/__init__.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/layer_norm
+copying apex/contrib/layer_norm/layer_norm.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/layer_norm
+creating build/lib.linux-x86_64-cpython-37/apex/contrib/multihead_attn
+copying apex/contrib/multihead_attn/__init__.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/multihead_attn
+copying apex/contrib/multihead_attn/encdec_multihead_attn.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/multihead_attn
+copying apex/contrib/multihead_attn/encdec_multihead_attn_func.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/multihead_attn
+copying apex/contrib/multihead_attn/fast_encdec_multihead_attn_func.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/multihead_attn
+copying apex/contrib/multihead_attn/fast_encdec_multihead_attn_norm_add_func.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/multihead_attn
+copying apex/contrib/multihead_attn/fast_self_multihead_attn_func.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/multihead_attn
+copying apex/contrib/multihead_attn/fast_self_multihead_attn_norm_add_func.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/multihead_attn
+copying apex/contrib/multihead_attn/mask_softmax_dropout_func.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/multihead_attn
+copying apex/contrib/multihead_attn/self_multihead_attn.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/multihead_attn
+copying apex/contrib/multihead_attn/self_multihead_attn_func.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/multihead_attn
+creating build/lib.linux-x86_64-cpython-37/apex/contrib/optimizers
+copying apex/contrib/optimizers/__init__.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/optimizers
+copying apex/contrib/optimizers/distributed_fused_adam.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/optimizers
+copying apex/contrib/optimizers/distributed_fused_lamb.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/optimizers
+copying apex/contrib/optimizers/fp16_optimizer.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/optimizers
+copying apex/contrib/optimizers/fused_adam.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/optimizers
+copying apex/contrib/optimizers/fused_lamb.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/optimizers
+copying apex/contrib/optimizers/fused_sgd.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/optimizers
+creating build/lib.linux-x86_64-cpython-37/apex/contrib/peer_memory
+copying apex/contrib/peer_memory/__init__.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/peer_memory
+copying apex/contrib/peer_memory/peer_halo_exchanger_1d.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/peer_memory
+copying apex/contrib/peer_memory/peer_memory.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/peer_memory
+creating build/lib.linux-x86_64-cpython-37/apex/contrib/sparsity
+copying apex/contrib/sparsity/__init__.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/sparsity
+copying apex/contrib/sparsity/asp.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/sparsity
+copying apex/contrib/sparsity/permutation_lib.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/sparsity
+copying apex/contrib/sparsity/sparse_masklib.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/sparsity
+creating build/lib.linux-x86_64-cpython-37/apex/contrib/test
+copying apex/contrib/test/__init__.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/test
+creating build/lib.linux-x86_64-cpython-37/apex/contrib/transducer
+copying apex/contrib/transducer/__init__.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/transducer
+copying apex/contrib/transducer/_transducer_ref.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/transducer
+copying apex/contrib/transducer/transducer.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/transducer
+creating build/lib.linux-x86_64-cpython-37/apex/contrib/xentropy
+copying apex/contrib/xentropy/__init__.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/xentropy
+copying apex/contrib/xentropy/softmax_xentropy.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/xentropy
+creating build/lib.linux-x86_64-cpython-37/apex/contrib/sparsity/permutation_search_kernels
+copying apex/contrib/sparsity/permutation_search_kernels/__init__.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/sparsity/permutation_search_kernels
+copying apex/contrib/sparsity/permutation_search_kernels/call_permutation_search_kernels.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/sparsity/permutation_search_kernels
+copying apex/contrib/sparsity/permutation_search_kernels/channel_swap.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/sparsity/permutation_search_kernels
+copying apex/contrib/sparsity/permutation_search_kernels/exhaustive_search.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/sparsity/permutation_search_kernels
+copying apex/contrib/sparsity/permutation_search_kernels/permutation_utilities.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/sparsity/permutation_search_kernels
+creating build/lib.linux-x86_64-cpython-37/apex/contrib/test/bottleneck
+copying apex/contrib/test/bottleneck/__init__.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/test/bottleneck
+copying apex/contrib/test/bottleneck/test_bottleneck_module.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/test/bottleneck
+creating build/lib.linux-x86_64-cpython-37/apex/contrib/test/clip_grad
+copying apex/contrib/test/clip_grad/__init__.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/test/clip_grad
+copying apex/contrib/test/clip_grad/test_clip_grad.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/test/clip_grad
+creating build/lib.linux-x86_64-cpython-37/apex/contrib/test/conv_bias_relu
+copying apex/contrib/test/conv_bias_relu/__init__.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/test/conv_bias_relu
+copying apex/contrib/test/conv_bias_relu/test_conv_bias_relu.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/test/conv_bias_relu
+creating build/lib.linux-x86_64-cpython-37/apex/contrib/test/cudnn_gbn
+copying apex/contrib/test/cudnn_gbn/__init__.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/test/cudnn_gbn
+copying apex/contrib/test/cudnn_gbn/test_cudnn_gbn_with_two_gpus.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/test/cudnn_gbn
+creating build/lib.linux-x86_64-cpython-37/apex/contrib/test/fmha
+copying apex/contrib/test/fmha/__init__.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/test/fmha
+copying apex/contrib/test/fmha/test_fmha.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/test/fmha
+creating build/lib.linux-x86_64-cpython-37/apex/contrib/test/focal_loss
+copying apex/contrib/test/focal_loss/__init__.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/test/focal_loss
+copying apex/contrib/test/focal_loss/test_focal_loss.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/test/focal_loss
+creating build/lib.linux-x86_64-cpython-37/apex/contrib/test/index_mul_2d
+copying apex/contrib/test/index_mul_2d/__init__.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/test/index_mul_2d
+copying apex/contrib/test/index_mul_2d/test_index_mul_2d.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/test/index_mul_2d
+creating build/lib.linux-x86_64-cpython-37/apex/contrib/test/layer_norm
+copying apex/contrib/test/layer_norm/__init__.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/test/layer_norm
+copying apex/contrib/test/layer_norm/test_fast_layer_norm.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/test/layer_norm
+creating build/lib.linux-x86_64-cpython-37/apex/contrib/test/multihead_attn
+copying apex/contrib/test/multihead_attn/__init__.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/test/multihead_attn
+copying apex/contrib/test/multihead_attn/test_encdec_multihead_attn.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/test/multihead_attn
+copying apex/contrib/test/multihead_attn/test_encdec_multihead_attn_norm_add.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/test/multihead_attn
+copying apex/contrib/test/multihead_attn/test_fast_self_multihead_attn_bias.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/test/multihead_attn
+copying apex/contrib/test/multihead_attn/test_mha_fused_softmax.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/test/multihead_attn
+copying apex/contrib/test/multihead_attn/test_self_multihead_attn.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/test/multihead_attn
+copying apex/contrib/test/multihead_attn/test_self_multihead_attn_norm_add.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/test/multihead_attn
+creating build/lib.linux-x86_64-cpython-37/apex/contrib/test/optimizers
+copying apex/contrib/test/optimizers/__init__.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/test/optimizers
+copying apex/contrib/test/optimizers/test_dist_adam.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/test/optimizers
+copying apex/contrib/test/optimizers/test_distributed_fused_lamb.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/test/optimizers
+creating build/lib.linux-x86_64-cpython-37/apex/contrib/test/peer_memory
+copying apex/contrib/test/peer_memory/__init__.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/test/peer_memory
+copying apex/contrib/test/peer_memory/test_peer_halo_exchange_module.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/test/peer_memory
+creating build/lib.linux-x86_64-cpython-37/apex/contrib/test/transducer
+copying apex/contrib/test/transducer/__init__.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/test/transducer
+copying apex/contrib/test/transducer/test_transducer_joint.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/test/transducer
+copying apex/contrib/test/transducer/test_transducer_loss.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/test/transducer
+creating build/lib.linux-x86_64-cpython-37/apex/contrib/test/xentropy
+copying apex/contrib/test/xentropy/__init__.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/test/xentropy
+copying apex/contrib/test/xentropy/test_label_smoothing.py -> build/lib.linux-x86_64-cpython-37/apex/contrib/test/xentropy
+creating build/lib.linux-x86_64-cpython-37/apex/transformer/_data
+copying apex/transformer/_data/__init__.py -> build/lib.linux-x86_64-cpython-37/apex/transformer/_data
+copying apex/transformer/_data/_batchsampler.py -> build/lib.linux-x86_64-cpython-37/apex/transformer/_data
+creating build/lib.linux-x86_64-cpython-37/apex/transformer/amp
+copying apex/transformer/amp/__init__.py -> build/lib.linux-x86_64-cpython-37/apex/transformer/amp
+copying apex/transformer/amp/grad_scaler.py -> build/lib.linux-x86_64-cpython-37/apex/transformer/amp
+creating build/lib.linux-x86_64-cpython-37/apex/transformer/functional
+copying apex/transformer/functional/__init__.py -> build/lib.linux-x86_64-cpython-37/apex/transformer/functional
+copying apex/transformer/functional/fused_softmax.py -> build/lib.linux-x86_64-cpython-37/apex/transformer/functional
+creating build/lib.linux-x86_64-cpython-37/apex/transformer/layers
+copying apex/transformer/layers/__init__.py -> build/lib.linux-x86_64-cpython-37/apex/transformer/layers
+copying apex/transformer/layers/layer_norm.py -> build/lib.linux-x86_64-cpython-37/apex/transformer/layers
+creating build/lib.linux-x86_64-cpython-37/apex/transformer/pipeline_parallel
+copying apex/transformer/pipeline_parallel/__init__.py -> build/lib.linux-x86_64-cpython-37/apex/transformer/pipeline_parallel
+copying apex/transformer/pipeline_parallel/_timers.py -> build/lib.linux-x86_64-cpython-37/apex/transformer/pipeline_parallel
+copying apex/transformer/pipeline_parallel/p2p_communication.py -> build/lib.linux-x86_64-cpython-37/apex/transformer/pipeline_parallel
+copying apex/transformer/pipeline_parallel/utils.py -> build/lib.linux-x86_64-cpython-37/apex/transformer/pipeline_parallel
+creating build/lib.linux-x86_64-cpython-37/apex/transformer/tensor_parallel
+copying apex/transformer/tensor_parallel/__init__.py -> build/lib.linux-x86_64-cpython-37/apex/transformer/tensor_parallel
+copying apex/transformer/tensor_parallel/cross_entropy.py -> build/lib.linux-x86_64-cpython-37/apex/transformer/tensor_parallel
+copying apex/transformer/tensor_parallel/data.py -> build/lib.linux-x86_64-cpython-37/apex/transformer/tensor_parallel
+copying apex/transformer/tensor_parallel/layers.py -> build/lib.linux-x86_64-cpython-37/apex/transformer/tensor_parallel
+copying apex/transformer/tensor_parallel/mappings.py -> build/lib.linux-x86_64-cpython-37/apex/transformer/tensor_parallel
+copying apex/transformer/tensor_parallel/memory.py -> build/lib.linux-x86_64-cpython-37/apex/transformer/tensor_parallel
+copying apex/transformer/tensor_parallel/random.py -> build/lib.linux-x86_64-cpython-37/apex/transformer/tensor_parallel
+copying apex/transformer/tensor_parallel/utils.py -> build/lib.linux-x86_64-cpython-37/apex/transformer/tensor_parallel
+creating build/lib.linux-x86_64-cpython-37/apex/transformer/testing
+copying apex/transformer/testing/__init__.py -> build/lib.linux-x86_64-cpython-37/apex/transformer/testing
+copying apex/transformer/testing/arguments.py -> build/lib.linux-x86_64-cpython-37/apex/transformer/testing
+copying apex/transformer/testing/commons.py -> build/lib.linux-x86_64-cpython-37/apex/transformer/testing
+copying apex/transformer/testing/distributed_test_base.py -> build/lib.linux-x86_64-cpython-37/apex/transformer/testing
+copying apex/transformer/testing/global_vars.py -> build/lib.linux-x86_64-cpython-37/apex/transformer/testing
+copying apex/transformer/testing/standalone_bert.py -> build/lib.linux-x86_64-cpython-37/apex/transformer/testing
+copying apex/transformer/testing/standalone_gpt.py -> build/lib.linux-x86_64-cpython-37/apex/transformer/testing
+copying apex/transformer/testing/standalone_transformer_lm.py -> build/lib.linux-x86_64-cpython-37/apex/transformer/testing
+creating build/lib.linux-x86_64-cpython-37/apex/transformer/pipeline_parallel/schedules
+copying apex/transformer/pipeline_parallel/schedules/__init__.py -> build/lib.linux-x86_64-cpython-37/apex/transformer/pipeline_parallel/schedules
+copying apex/transformer/pipeline_parallel/schedules/common.py -> build/lib.linux-x86_64-cpython-37/apex/transformer/pipeline_parallel/schedules
+copying apex/transformer/pipeline_parallel/schedules/fwd_bwd_no_pipelining.py -> build/lib.linux-x86_64-cpython-37/apex/transformer/pipeline_parallel/schedules
+copying apex/transformer/pipeline_parallel/schedules/fwd_bwd_pipelining_with_interleaving.py -> build/lib.linux-x86_64-cpython-37/apex/transformer/pipeline_parallel/schedules
+copying apex/transformer/pipeline_parallel/schedules/fwd_bwd_pipelining_without_interleaving.py -> build/lib.linux-x86_64-cpython-37/apex/transformer/pipeline_parallel/schedules
+running build_ext
+building 'amp_C' extension
+creating build/temp.linux-x86_64-cpython-37
+creating build/temp.linux-x86_64-cpython-37/csrc
+gcc -pthread -B /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/compiler_compat -Wl,--sysroot=/ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/torch/csrc/api/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/TH -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/THC -I/modules/apps/cuda/11.7.0/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/include/python3.7m -c csrc/amp_C_frontend.cpp -o build/temp.linux-x86_64-cpython-37/csrc/amp_C_frontend.o -O3 -DVERSION_GE_1_1 -DVERSION_GE_1_3 -DVERSION_GE_1_5 -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1011\" -DTORCH_EXTENSION_NAME=amp_C -D_GLIBCXX_USE_CXX11_ABI=0 -std=c++14
+/modules/apps/cuda/11.7.0/bin/nvcc -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/torch/csrc/api/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/TH -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/THC -I/modules/apps/cuda/11.7.0/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/include/python3.7m -c csrc/multi_tensor_adagrad.cu -o build/temp.linux-x86_64-cpython-37/csrc/multi_tensor_adagrad.o -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr --compiler-options '-fPIC' -lineinfo -O3 --use_fast_math -DVERSION_GE_1_1 -DVERSION_GE_1_3 -DVERSION_GE_1_5 -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1011\" -DTORCH_EXTENSION_NAME=amp_C -D_GLIBCXX_USE_CXX11_ABI=0 -gencode=arch=compute_52,code=compute_52 -gencode=arch=compute_52,code=sm_52 -std=c++14
+/modules/apps/cuda/11.7.0/bin/nvcc -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/torch/csrc/api/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/TH -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/THC -I/modules/apps/cuda/11.7.0/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/include/python3.7m -c csrc/multi_tensor_adam.cu -o build/temp.linux-x86_64-cpython-37/csrc/multi_tensor_adam.o -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr --compiler-options '-fPIC' -lineinfo -O3 --use_fast_math -DVERSION_GE_1_1 -DVERSION_GE_1_3 -DVERSION_GE_1_5 -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1011\" -DTORCH_EXTENSION_NAME=amp_C -D_GLIBCXX_USE_CXX11_ABI=0 -gencode=arch=compute_52,code=compute_52 -gencode=arch=compute_52,code=sm_52 -std=c++14
+/modules/apps/cuda/11.7.0/bin/nvcc -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/torch/csrc/api/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/TH -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/THC -I/modules/apps/cuda/11.7.0/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/include/python3.7m -c csrc/multi_tensor_axpby_kernel.cu -o build/temp.linux-x86_64-cpython-37/csrc/multi_tensor_axpby_kernel.o -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr --compiler-options '-fPIC' -lineinfo -O3 --use_fast_math -DVERSION_GE_1_1 -DVERSION_GE_1_3 -DVERSION_GE_1_5 -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1011\" -DTORCH_EXTENSION_NAME=amp_C -D_GLIBCXX_USE_CXX11_ABI=0 -gencode=arch=compute_52,code=compute_52 -gencode=arch=compute_52,code=sm_52 -std=c++14
+/modules/apps/cuda/11.7.0/bin/nvcc -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/torch/csrc/api/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/TH -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/THC -I/modules/apps/cuda/11.7.0/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/include/python3.7m -c csrc/multi_tensor_l2norm_kernel.cu -o build/temp.linux-x86_64-cpython-37/csrc/multi_tensor_l2norm_kernel.o -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr --compiler-options '-fPIC' -lineinfo -O3 --use_fast_math -DVERSION_GE_1_1 -DVERSION_GE_1_3 -DVERSION_GE_1_5 -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1011\" -DTORCH_EXTENSION_NAME=amp_C -D_GLIBCXX_USE_CXX11_ABI=0 -gencode=arch=compute_52,code=compute_52 -gencode=arch=compute_52,code=sm_52 -std=c++14
+/modules/apps/cuda/11.7.0/bin/nvcc -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/torch/csrc/api/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/TH -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/THC -I/modules/apps/cuda/11.7.0/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/include/python3.7m -c csrc/multi_tensor_l2norm_kernel_mp.cu -o build/temp.linux-x86_64-cpython-37/csrc/multi_tensor_l2norm_kernel_mp.o -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr --compiler-options '-fPIC' -lineinfo -O3 --use_fast_math -DVERSION_GE_1_1 -DVERSION_GE_1_3 -DVERSION_GE_1_5 -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1011\" -DTORCH_EXTENSION_NAME=amp_C -D_GLIBCXX_USE_CXX11_ABI=0 -gencode=arch=compute_52,code=compute_52 -gencode=arch=compute_52,code=sm_52 -std=c++14
+/modules/apps/cuda/11.7.0/bin/nvcc -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/torch/csrc/api/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/TH -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/THC -I/modules/apps/cuda/11.7.0/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/include/python3.7m -c csrc/multi_tensor_l2norm_scale_kernel.cu -o build/temp.linux-x86_64-cpython-37/csrc/multi_tensor_l2norm_scale_kernel.o -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr --compiler-options '-fPIC' -lineinfo -O3 --use_fast_math -DVERSION_GE_1_1 -DVERSION_GE_1_3 -DVERSION_GE_1_5 -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1011\" -DTORCH_EXTENSION_NAME=amp_C -D_GLIBCXX_USE_CXX11_ABI=0 -gencode=arch=compute_52,code=compute_52 -gencode=arch=compute_52,code=sm_52 -std=c++14
+/modules/apps/cuda/11.7.0/bin/nvcc -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/torch/csrc/api/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/TH -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/THC -I/modules/apps/cuda/11.7.0/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/include/python3.7m -c csrc/multi_tensor_lamb.cu -o build/temp.linux-x86_64-cpython-37/csrc/multi_tensor_lamb.o -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr --compiler-options '-fPIC' -lineinfo -O3 --use_fast_math -DVERSION_GE_1_1 -DVERSION_GE_1_3 -DVERSION_GE_1_5 -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1011\" -DTORCH_EXTENSION_NAME=amp_C -D_GLIBCXX_USE_CXX11_ABI=0 -gencode=arch=compute_52,code=compute_52 -gencode=arch=compute_52,code=sm_52 -std=c++14
+/modules/apps/cuda/11.7.0/bin/nvcc -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/torch/csrc/api/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/TH -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/THC -I/modules/apps/cuda/11.7.0/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/include/python3.7m -c csrc/multi_tensor_lamb_mp.cu -o build/temp.linux-x86_64-cpython-37/csrc/multi_tensor_lamb_mp.o -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr --compiler-options '-fPIC' -lineinfo -O3 --use_fast_math -DVERSION_GE_1_1 -DVERSION_GE_1_3 -DVERSION_GE_1_5 -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1011\" -DTORCH_EXTENSION_NAME=amp_C -D_GLIBCXX_USE_CXX11_ABI=0 -gencode=arch=compute_52,code=compute_52 -gencode=arch=compute_52,code=sm_52 -std=c++14
+/modules/apps/cuda/11.7.0/bin/nvcc -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/torch/csrc/api/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/TH -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/THC -I/modules/apps/cuda/11.7.0/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/include/python3.7m -c csrc/multi_tensor_lamb_stage_1.cu -o build/temp.linux-x86_64-cpython-37/csrc/multi_tensor_lamb_stage_1.o -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr --compiler-options '-fPIC' -lineinfo -O3 --use_fast_math -DVERSION_GE_1_1 -DVERSION_GE_1_3 -DVERSION_GE_1_5 -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1011\" -DTORCH_EXTENSION_NAME=amp_C -D_GLIBCXX_USE_CXX11_ABI=0 -gencode=arch=compute_52,code=compute_52 -gencode=arch=compute_52,code=sm_52 -std=c++14
+/modules/apps/cuda/11.7.0/bin/nvcc -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/torch/csrc/api/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/TH -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/THC -I/modules/apps/cuda/11.7.0/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/include/python3.7m -c csrc/multi_tensor_lamb_stage_2.cu -o build/temp.linux-x86_64-cpython-37/csrc/multi_tensor_lamb_stage_2.o -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr --compiler-options '-fPIC' -lineinfo -O3 --use_fast_math -DVERSION_GE_1_1 -DVERSION_GE_1_3 -DVERSION_GE_1_5 -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1011\" -DTORCH_EXTENSION_NAME=amp_C -D_GLIBCXX_USE_CXX11_ABI=0 -gencode=arch=compute_52,code=compute_52 -gencode=arch=compute_52,code=sm_52 -std=c++14
+/modules/apps/cuda/11.7.0/bin/nvcc -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/torch/csrc/api/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/TH -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/THC -I/modules/apps/cuda/11.7.0/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/include/python3.7m -c csrc/multi_tensor_novograd.cu -o build/temp.linux-x86_64-cpython-37/csrc/multi_tensor_novograd.o -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr --compiler-options '-fPIC' -lineinfo -O3 --use_fast_math -DVERSION_GE_1_1 -DVERSION_GE_1_3 -DVERSION_GE_1_5 -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1011\" -DTORCH_EXTENSION_NAME=amp_C -D_GLIBCXX_USE_CXX11_ABI=0 -gencode=arch=compute_52,code=compute_52 -gencode=arch=compute_52,code=sm_52 -std=c++14
+/modules/apps/cuda/11.7.0/bin/nvcc -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/torch/csrc/api/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/TH -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/THC -I/modules/apps/cuda/11.7.0/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/include/python3.7m -c csrc/multi_tensor_scale_kernel.cu -o build/temp.linux-x86_64-cpython-37/csrc/multi_tensor_scale_kernel.o -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr --compiler-options '-fPIC' -lineinfo -O3 --use_fast_math -DVERSION_GE_1_1 -DVERSION_GE_1_3 -DVERSION_GE_1_5 -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1011\" -DTORCH_EXTENSION_NAME=amp_C -D_GLIBCXX_USE_CXX11_ABI=0 -gencode=arch=compute_52,code=compute_52 -gencode=arch=compute_52,code=sm_52 -std=c++14
+/modules/apps/cuda/11.7.0/bin/nvcc -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/torch/csrc/api/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/TH -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/THC -I/modules/apps/cuda/11.7.0/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/include/python3.7m -c csrc/multi_tensor_sgd_kernel.cu -o build/temp.linux-x86_64-cpython-37/csrc/multi_tensor_sgd_kernel.o -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr --compiler-options '-fPIC' -lineinfo -O3 --use_fast_math -DVERSION_GE_1_1 -DVERSION_GE_1_3 -DVERSION_GE_1_5 -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1011\" -DTORCH_EXTENSION_NAME=amp_C -D_GLIBCXX_USE_CXX11_ABI=0 -gencode=arch=compute_52,code=compute_52 -gencode=arch=compute_52,code=sm_52 -std=c++14
+g++ -pthread -B /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/compiler_compat -Wl,--sysroot=/ -pthread -shared -B /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/compiler_compat -L/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib -Wl,-rpath=/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib -Wl,--no-as-needed -Wl,--sysroot=/ build/temp.linux-x86_64-cpython-37/csrc/amp_C_frontend.o build/temp.linux-x86_64-cpython-37/csrc/multi_tensor_adagrad.o build/temp.linux-x86_64-cpython-37/csrc/multi_tensor_adam.o build/temp.linux-x86_64-cpython-37/csrc/multi_tensor_axpby_kernel.o build/temp.linux-x86_64-cpython-37/csrc/multi_tensor_l2norm_kernel.o build/temp.linux-x86_64-cpython-37/csrc/multi_tensor_l2norm_kernel_mp.o build/temp.linux-x86_64-cpython-37/csrc/multi_tensor_l2norm_scale_kernel.o build/temp.linux-x86_64-cpython-37/csrc/multi_tensor_lamb.o build/temp.linux-x86_64-cpython-37/csrc/multi_tensor_lamb_mp.o build/temp.linux-x86_64-cpython-37/csrc/multi_tensor_lamb_stage_1.o build/temp.linux-x86_64-cpython-37/csrc/multi_tensor_lamb_stage_2.o build/temp.linux-x86_64-cpython-37/csrc/multi_tensor_novograd.o build/temp.linux-x86_64-cpython-37/csrc/multi_tensor_scale_kernel.o build/temp.linux-x86_64-cpython-37/csrc/multi_tensor_sgd_kernel.o -L/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/lib -L/modules/apps/cuda/11.7.0/lib64 -lc10 -ltorch -ltorch_cpu -ltorch_python -lcudart -lc10_cuda -ltorch_cuda_cu -ltorch_cuda_cpp -o build/lib.linux-x86_64-cpython-37/amp_C.cpython-37m-x86_64-linux-gnu.so
+building 'syncbn' extension
+gcc -pthread -B /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/compiler_compat -Wl,--sysroot=/ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/torch/csrc/api/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/TH -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/THC -I/modules/apps/cuda/11.7.0/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/include/python3.7m -c csrc/syncbn.cpp -o build/temp.linux-x86_64-cpython-37/csrc/syncbn.o -O3 -DVERSION_GE_1_1 -DVERSION_GE_1_3 -DVERSION_GE_1_5 -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1011\" -DTORCH_EXTENSION_NAME=syncbn -D_GLIBCXX_USE_CXX11_ABI=0 -std=c++14
+/modules/apps/cuda/11.7.0/bin/nvcc -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/torch/csrc/api/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/TH -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/THC -I/modules/apps/cuda/11.7.0/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/include/python3.7m -c csrc/welford.cu -o build/temp.linux-x86_64-cpython-37/csrc/welford.o -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr --compiler-options '-fPIC' -O3 -DVERSION_GE_1_1 -DVERSION_GE_1_3 -DVERSION_GE_1_5 -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1011\" -DTORCH_EXTENSION_NAME=syncbn -D_GLIBCXX_USE_CXX11_ABI=0 -gencode=arch=compute_52,code=compute_52 -gencode=arch=compute_52,code=sm_52 -std=c++14
+g++ -pthread -B /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/compiler_compat -Wl,--sysroot=/ -pthread -shared -B /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/compiler_compat -L/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib -Wl,-rpath=/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib -Wl,--no-as-needed -Wl,--sysroot=/ build/temp.linux-x86_64-cpython-37/csrc/syncbn.o build/temp.linux-x86_64-cpython-37/csrc/welford.o -L/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/lib -L/modules/apps/cuda/11.7.0/lib64 -lc10 -ltorch -ltorch_cpu -ltorch_python -lcudart -lc10_cuda -ltorch_cuda_cu -ltorch_cuda_cpp -o build/lib.linux-x86_64-cpython-37/syncbn.cpython-37m-x86_64-linux-gnu.so
+building 'fused_layer_norm_cuda' extension
+gcc -pthread -B /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/compiler_compat -Wl,--sysroot=/ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/torch/csrc/api/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/TH -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/THC -I/modules/apps/cuda/11.7.0/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/include/python3.7m -c csrc/layer_norm_cuda.cpp -o build/temp.linux-x86_64-cpython-37/csrc/layer_norm_cuda.o -O3 -DVERSION_GE_1_1 -DVERSION_GE_1_3 -DVERSION_GE_1_5 -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1011\" -DTORCH_EXTENSION_NAME=fused_layer_norm_cuda -D_GLIBCXX_USE_CXX11_ABI=0 -std=c++14
+/modules/apps/cuda/11.7.0/bin/nvcc -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/torch/csrc/api/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/TH -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/THC -I/modules/apps/cuda/11.7.0/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/include/python3.7m -c csrc/layer_norm_cuda_kernel.cu -o build/temp.linux-x86_64-cpython-37/csrc/layer_norm_cuda_kernel.o -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr --compiler-options '-fPIC' -maxrregcount=50 -O3 --use_fast_math -DVERSION_GE_1_1 -DVERSION_GE_1_3 -DVERSION_GE_1_5 -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1011\" -DTORCH_EXTENSION_NAME=fused_layer_norm_cuda -D_GLIBCXX_USE_CXX11_ABI=0 -gencode=arch=compute_52,code=compute_52 -gencode=arch=compute_52,code=sm_52 -std=c++14
+g++ -pthread -B /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/compiler_compat -Wl,--sysroot=/ -pthread -shared -B /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/compiler_compat -L/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib -Wl,-rpath=/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib -Wl,--no-as-needed -Wl,--sysroot=/ build/temp.linux-x86_64-cpython-37/csrc/layer_norm_cuda.o build/temp.linux-x86_64-cpython-37/csrc/layer_norm_cuda_kernel.o -L/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/lib -L/modules/apps/cuda/11.7.0/lib64 -lc10 -ltorch -ltorch_cpu -ltorch_python -lcudart -lc10_cuda -ltorch_cuda_cu -ltorch_cuda_cpp -o build/lib.linux-x86_64-cpython-37/fused_layer_norm_cuda.cpython-37m-x86_64-linux-gnu.so
+building 'mlp_cuda' extension
+gcc -pthread -B /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/compiler_compat -Wl,--sysroot=/ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/torch/csrc/api/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/TH -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/THC -I/modules/apps/cuda/11.7.0/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/include/python3.7m -c csrc/mlp.cpp -o build/temp.linux-x86_64-cpython-37/csrc/mlp.o -O3 -DVERSION_GE_1_1 -DVERSION_GE_1_3 -DVERSION_GE_1_5 -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1011\" -DTORCH_EXTENSION_NAME=mlp_cuda -D_GLIBCXX_USE_CXX11_ABI=0 -std=c++14
+/modules/apps/cuda/11.7.0/bin/nvcc -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/torch/csrc/api/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/TH -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/THC -I/modules/apps/cuda/11.7.0/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/include/python3.7m -c csrc/mlp_cuda.cu -o build/temp.linux-x86_64-cpython-37/csrc/mlp_cuda.o -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr --compiler-options '-fPIC' -O3 -DVERSION_GE_1_1 -DVERSION_GE_1_3 -DVERSION_GE_1_5 -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1011\" -DTORCH_EXTENSION_NAME=mlp_cuda -D_GLIBCXX_USE_CXX11_ABI=0 -gencode=arch=compute_52,code=compute_52 -gencode=arch=compute_52,code=sm_52 -std=c++14
+g++ -pthread -B /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/compiler_compat -Wl,--sysroot=/ -pthread -shared -B /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/compiler_compat -L/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib -Wl,-rpath=/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib -Wl,--no-as-needed -Wl,--sysroot=/ build/temp.linux-x86_64-cpython-37/csrc/mlp.o build/temp.linux-x86_64-cpython-37/csrc/mlp_cuda.o -L/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/lib -L/modules/apps/cuda/11.7.0/lib64 -lc10 -ltorch -ltorch_cpu -ltorch_python -lcudart -lc10_cuda -ltorch_cuda_cu -ltorch_cuda_cpp -o build/lib.linux-x86_64-cpython-37/mlp_cuda.cpython-37m-x86_64-linux-gnu.so
+building 'fused_dense_cuda' extension
+gcc -pthread -B /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/compiler_compat -Wl,--sysroot=/ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/torch/csrc/api/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/TH -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/THC -I/modules/apps/cuda/11.7.0/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/include/python3.7m -c csrc/fused_dense.cpp -o build/temp.linux-x86_64-cpython-37/csrc/fused_dense.o -O3 -DVERSION_GE_1_1 -DVERSION_GE_1_3 -DVERSION_GE_1_5 -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1011\" -DTORCH_EXTENSION_NAME=fused_dense_cuda -D_GLIBCXX_USE_CXX11_ABI=0 -std=c++14
+/modules/apps/cuda/11.7.0/bin/nvcc -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/torch/csrc/api/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/TH -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/THC -I/modules/apps/cuda/11.7.0/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/include/python3.7m -c csrc/fused_dense_cuda.cu -o build/temp.linux-x86_64-cpython-37/csrc/fused_dense_cuda.o -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr --compiler-options '-fPIC' -O3 -DVERSION_GE_1_1 -DVERSION_GE_1_3 -DVERSION_GE_1_5 -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1011\" -DTORCH_EXTENSION_NAME=fused_dense_cuda -D_GLIBCXX_USE_CXX11_ABI=0 -gencode=arch=compute_52,code=compute_52 -gencode=arch=compute_52,code=sm_52 -std=c++14
+g++ -pthread -B /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/compiler_compat -Wl,--sysroot=/ -pthread -shared -B /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/compiler_compat -L/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib -Wl,-rpath=/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib -Wl,--no-as-needed -Wl,--sysroot=/ build/temp.linux-x86_64-cpython-37/csrc/fused_dense.o build/temp.linux-x86_64-cpython-37/csrc/fused_dense_cuda.o -L/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/lib -L/modules/apps/cuda/11.7.0/lib64 -lc10 -ltorch -ltorch_cpu -ltorch_python -lcudart -lc10_cuda -ltorch_cuda_cu -ltorch_cuda_cpp -o build/lib.linux-x86_64-cpython-37/fused_dense_cuda.cpython-37m-x86_64-linux-gnu.so
+building 'scaled_upper_triang_masked_softmax_cuda' extension
+creating build/temp.linux-x86_64-cpython-37/csrc/megatron
+gcc -pthread -B /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/compiler_compat -Wl,--sysroot=/ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/work/pi_adrozdov_umass_edu/transLRPL/TransLRPL/CodeGen/apex/csrc -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/torch/csrc/api/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/TH -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/THC -I/modules/apps/cuda/11.7.0/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/include/python3.7m -c csrc/megatron/scaled_upper_triang_masked_softmax.cpp -o build/temp.linux-x86_64-cpython-37/csrc/megatron/scaled_upper_triang_masked_softmax.o -O3 -DVERSION_GE_1_1 -DVERSION_GE_1_3 -DVERSION_GE_1_5 -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1011\" -DTORCH_EXTENSION_NAME=scaled_upper_triang_masked_softmax_cuda -D_GLIBCXX_USE_CXX11_ABI=0 -std=c++14
+/modules/apps/cuda/11.7.0/bin/nvcc -I/work/pi_adrozdov_umass_edu/transLRPL/TransLRPL/CodeGen/apex/csrc -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/torch/csrc/api/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/TH -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/THC -I/modules/apps/cuda/11.7.0/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/include/python3.7m -c csrc/megatron/scaled_upper_triang_masked_softmax_cuda.cu -o build/temp.linux-x86_64-cpython-37/csrc/megatron/scaled_upper_triang_masked_softmax_cuda.o -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr --compiler-options '-fPIC' -O3 -U__CUDA_NO_HALF_OPERATORS__ -U__CUDA_NO_HALF_CONVERSIONS__ --expt-relaxed-constexpr --expt-extended-lambda -DVERSION_GE_1_1 -DVERSION_GE_1_3 -DVERSION_GE_1_5 -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1011\" -DTORCH_EXTENSION_NAME=scaled_upper_triang_masked_softmax_cuda -D_GLIBCXX_USE_CXX11_ABI=0 -gencode=arch=compute_52,code=compute_52 -gencode=arch=compute_52,code=sm_52 -std=c++14
+g++ -pthread -B /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/compiler_compat -Wl,--sysroot=/ -pthread -shared -B /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/compiler_compat -L/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib -Wl,-rpath=/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib -Wl,--no-as-needed -Wl,--sysroot=/ build/temp.linux-x86_64-cpython-37/csrc/megatron/scaled_upper_triang_masked_softmax.o build/temp.linux-x86_64-cpython-37/csrc/megatron/scaled_upper_triang_masked_softmax_cuda.o -L/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/lib -L/modules/apps/cuda/11.7.0/lib64 -lc10 -ltorch -ltorch_cpu -ltorch_python -lcudart -lc10_cuda -ltorch_cuda_cu -ltorch_cuda_cpp -o build/lib.linux-x86_64-cpython-37/scaled_upper_triang_masked_softmax_cuda.cpython-37m-x86_64-linux-gnu.so
+building 'generic_scaled_masked_softmax_cuda' extension
+gcc -pthread -B /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/compiler_compat -Wl,--sysroot=/ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/work/pi_adrozdov_umass_edu/transLRPL/TransLRPL/CodeGen/apex/csrc -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/torch/csrc/api/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/TH -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/THC -I/modules/apps/cuda/11.7.0/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/include/python3.7m -c csrc/megatron/generic_scaled_masked_softmax.cpp -o build/temp.linux-x86_64-cpython-37/csrc/megatron/generic_scaled_masked_softmax.o -O3 -DVERSION_GE_1_1 -DVERSION_GE_1_3 -DVERSION_GE_1_5 -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1011\" -DTORCH_EXTENSION_NAME=generic_scaled_masked_softmax_cuda -D_GLIBCXX_USE_CXX11_ABI=0 -std=c++14
+/modules/apps/cuda/11.7.0/bin/nvcc -I/work/pi_adrozdov_umass_edu/transLRPL/TransLRPL/CodeGen/apex/csrc -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/torch/csrc/api/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/TH -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/THC -I/modules/apps/cuda/11.7.0/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/include/python3.7m -c csrc/megatron/generic_scaled_masked_softmax_cuda.cu -o build/temp.linux-x86_64-cpython-37/csrc/megatron/generic_scaled_masked_softmax_cuda.o -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr --compiler-options '-fPIC' -O3 -U__CUDA_NO_HALF_OPERATORS__ -U__CUDA_NO_HALF_CONVERSIONS__ --expt-relaxed-constexpr --expt-extended-lambda -DVERSION_GE_1_1 -DVERSION_GE_1_3 -DVERSION_GE_1_5 -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1011\" -DTORCH_EXTENSION_NAME=generic_scaled_masked_softmax_cuda -D_GLIBCXX_USE_CXX11_ABI=0 -gencode=arch=compute_52,code=compute_52 -gencode=arch=compute_52,code=sm_52 -std=c++14
+g++ -pthread -B /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/compiler_compat -Wl,--sysroot=/ -pthread -shared -B /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/compiler_compat -L/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib -Wl,-rpath=/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib -Wl,--no-as-needed -Wl,--sysroot=/ build/temp.linux-x86_64-cpython-37/csrc/megatron/generic_scaled_masked_softmax.o build/temp.linux-x86_64-cpython-37/csrc/megatron/generic_scaled_masked_softmax_cuda.o -L/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/lib -L/modules/apps/cuda/11.7.0/lib64 -lc10 -ltorch -ltorch_cpu -ltorch_python -lcudart -lc10_cuda -ltorch_cuda_cu -ltorch_cuda_cpp -o build/lib.linux-x86_64-cpython-37/generic_scaled_masked_softmax_cuda.cpython-37m-x86_64-linux-gnu.so
+building 'scaled_masked_softmax_cuda' extension
+gcc -pthread -B /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/compiler_compat -Wl,--sysroot=/ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/work/pi_adrozdov_umass_edu/transLRPL/TransLRPL/CodeGen/apex/csrc -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/torch/csrc/api/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/TH -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/THC -I/modules/apps/cuda/11.7.0/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/include/python3.7m -c csrc/megatron/scaled_masked_softmax.cpp -o build/temp.linux-x86_64-cpython-37/csrc/megatron/scaled_masked_softmax.o -O3 -DVERSION_GE_1_1 -DVERSION_GE_1_3 -DVERSION_GE_1_5 -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1011\" -DTORCH_EXTENSION_NAME=scaled_masked_softmax_cuda -D_GLIBCXX_USE_CXX11_ABI=0 -std=c++14
+/modules/apps/cuda/11.7.0/bin/nvcc -I/work/pi_adrozdov_umass_edu/transLRPL/TransLRPL/CodeGen/apex/csrc -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/torch/csrc/api/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/TH -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/THC -I/modules/apps/cuda/11.7.0/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/include/python3.7m -c csrc/megatron/scaled_masked_softmax_cuda.cu -o build/temp.linux-x86_64-cpython-37/csrc/megatron/scaled_masked_softmax_cuda.o -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr --compiler-options '-fPIC' -O3 -U__CUDA_NO_HALF_OPERATORS__ -U__CUDA_NO_HALF_CONVERSIONS__ --expt-relaxed-constexpr --expt-extended-lambda -DVERSION_GE_1_1 -DVERSION_GE_1_3 -DVERSION_GE_1_5 -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1011\" -DTORCH_EXTENSION_NAME=scaled_masked_softmax_cuda -D_GLIBCXX_USE_CXX11_ABI=0 -gencode=arch=compute_52,code=compute_52 -gencode=arch=compute_52,code=sm_52 -std=c++14
+g++ -pthread -B /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/compiler_compat -Wl,--sysroot=/ -pthread -shared -B /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/compiler_compat -L/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib -Wl,-rpath=/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib -Wl,--no-as-needed -Wl,--sysroot=/ build/temp.linux-x86_64-cpython-37/csrc/megatron/scaled_masked_softmax.o build/temp.linux-x86_64-cpython-37/csrc/megatron/scaled_masked_softmax_cuda.o -L/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/lib -L/modules/apps/cuda/11.7.0/lib64 -lc10 -ltorch -ltorch_cpu -ltorch_python -lcudart -lc10_cuda -ltorch_cuda_cu -ltorch_cuda_cpp -o build/lib.linux-x86_64-cpython-37/scaled_masked_softmax_cuda.cpython-37m-x86_64-linux-gnu.so
+building 'scaled_softmax_cuda' extension
+gcc -pthread -B /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/compiler_compat -Wl,--sysroot=/ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/work/pi_adrozdov_umass_edu/transLRPL/TransLRPL/CodeGen/apex/csrc -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/torch/csrc/api/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/TH -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/THC -I/modules/apps/cuda/11.7.0/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/include/python3.7m -c csrc/megatron/scaled_softmax.cpp -o build/temp.linux-x86_64-cpython-37/csrc/megatron/scaled_softmax.o -O3 -DVERSION_GE_1_1 -DVERSION_GE_1_3 -DVERSION_GE_1_5 -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1011\" -DTORCH_EXTENSION_NAME=scaled_softmax_cuda -D_GLIBCXX_USE_CXX11_ABI=0 -std=c++14
+/modules/apps/cuda/11.7.0/bin/nvcc -I/work/pi_adrozdov_umass_edu/transLRPL/TransLRPL/CodeGen/apex/csrc -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/torch/csrc/api/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/TH -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/THC -I/modules/apps/cuda/11.7.0/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/include/python3.7m -c csrc/megatron/scaled_softmax_cuda.cu -o build/temp.linux-x86_64-cpython-37/csrc/megatron/scaled_softmax_cuda.o -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr --compiler-options '-fPIC' -O3 -U__CUDA_NO_HALF_OPERATORS__ -U__CUDA_NO_HALF_CONVERSIONS__ --expt-relaxed-constexpr --expt-extended-lambda -DVERSION_GE_1_1 -DVERSION_GE_1_3 -DVERSION_GE_1_5 -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1011\" -DTORCH_EXTENSION_NAME=scaled_softmax_cuda -D_GLIBCXX_USE_CXX11_ABI=0 -gencode=arch=compute_52,code=compute_52 -gencode=arch=compute_52,code=sm_52 -std=c++14
+g++ -pthread -B /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/compiler_compat -Wl,--sysroot=/ -pthread -shared -B /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/compiler_compat -L/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib -Wl,-rpath=/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib -Wl,--no-as-needed -Wl,--sysroot=/ build/temp.linux-x86_64-cpython-37/csrc/megatron/scaled_softmax.o build/temp.linux-x86_64-cpython-37/csrc/megatron/scaled_softmax_cuda.o -L/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/lib -L/modules/apps/cuda/11.7.0/lib64 -lc10 -ltorch -ltorch_cpu -ltorch_python -lcudart -lc10_cuda -ltorch_cuda_cu -ltorch_cuda_cpp -o build/lib.linux-x86_64-cpython-37/scaled_softmax_cuda.cpython-37m-x86_64-linux-gnu.so
+building 'fused_weight_gradient_mlp_cuda' extension
+gcc -pthread -B /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/compiler_compat -Wl,--sysroot=/ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/work/pi_adrozdov_umass_edu/transLRPL/TransLRPL/CodeGen/apex/csrc -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/torch/csrc/api/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/TH -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/THC -I/modules/apps/cuda/11.7.0/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/include/python3.7m -c csrc/megatron/fused_weight_gradient_dense.cpp -o build/temp.linux-x86_64-cpython-37/csrc/megatron/fused_weight_gradient_dense.o -O3 -DVERSION_GE_1_1 -DVERSION_GE_1_3 -DVERSION_GE_1_5 -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1011\" -DTORCH_EXTENSION_NAME=fused_weight_gradient_mlp_cuda -D_GLIBCXX_USE_CXX11_ABI=0 -std=c++14
+/modules/apps/cuda/11.7.0/bin/nvcc -I/work/pi_adrozdov_umass_edu/transLRPL/TransLRPL/CodeGen/apex/csrc -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/torch/csrc/api/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/TH -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/THC -I/modules/apps/cuda/11.7.0/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/include/python3.7m -c csrc/megatron/fused_weight_gradient_dense_16bit_prec_cuda.cu -o build/temp.linux-x86_64-cpython-37/csrc/megatron/fused_weight_gradient_dense_16bit_prec_cuda.o -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr --compiler-options '-fPIC' -O3 -U__CUDA_NO_HALF_OPERATORS__ -U__CUDA_NO_HALF_CONVERSIONS__ --expt-relaxed-constexpr --expt-extended-lambda --use_fast_math -DVERSION_GE_1_1 -DVERSION_GE_1_3 -DVERSION_GE_1_5 -gencode arch=compute_70,code=sm_70 -gencode arch=compute_80,code=sm_80 -gencode arch=compute_86,code=sm_86 -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1011\" -DTORCH_EXTENSION_NAME=fused_weight_gradient_mlp_cuda -D_GLIBCXX_USE_CXX11_ABI=0 -std=c++14
+/modules/apps/cuda/11.7.0/bin/nvcc -I/work/pi_adrozdov_umass_edu/transLRPL/TransLRPL/CodeGen/apex/csrc -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/torch/csrc/api/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/TH -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/include/THC -I/modules/apps/cuda/11.7.0/include -I/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/include/python3.7m -c csrc/megatron/fused_weight_gradient_dense_cuda.cu -o build/temp.linux-x86_64-cpython-37/csrc/megatron/fused_weight_gradient_dense_cuda.o -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr --compiler-options '-fPIC' -O3 -U__CUDA_NO_HALF_OPERATORS__ -U__CUDA_NO_HALF_CONVERSIONS__ --expt-relaxed-constexpr --expt-extended-lambda --use_fast_math -DVERSION_GE_1_1 -DVERSION_GE_1_3 -DVERSION_GE_1_5 -gencode arch=compute_70,code=sm_70 -gencode arch=compute_80,code=sm_80 -gencode arch=compute_86,code=sm_86 -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1011\" -DTORCH_EXTENSION_NAME=fused_weight_gradient_mlp_cuda -D_GLIBCXX_USE_CXX11_ABI=0 -std=c++14
+g++ -pthread -B /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/compiler_compat -Wl,--sysroot=/ -pthread -shared -B /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/compiler_compat -L/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib -Wl,-rpath=/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib -Wl,--no-as-needed -Wl,--sysroot=/ build/temp.linux-x86_64-cpython-37/csrc/megatron/fused_weight_gradient_dense.o build/temp.linux-x86_64-cpython-37/csrc/megatron/fused_weight_gradient_dense_16bit_prec_cuda.o build/temp.linux-x86_64-cpython-37/csrc/megatron/fused_weight_gradient_dense_cuda.o -L/home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/torch/lib -L/modules/apps/cuda/11.7.0/lib64 -lc10 -ltorch -ltorch_cpu -ltorch_python -lcudart -lc10_cuda -ltorch_cuda_cu -ltorch_cuda_cpp -o build/lib.linux-x86_64-cpython-37/fused_weight_gradient_mlp_cuda.cpython-37m-x86_64-linux-gnu.so
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+copying build/lib.linux-x86_64-cpython-37/amp_C.cpython-37m-x86_64-linux-gnu.so -> build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/apex
+creating build/bdist.linux-x86_64/egg/apex/RNN
+copying build/lib.linux-x86_64-cpython-37/apex/RNN/RNNBackend.py -> build/bdist.linux-x86_64/egg/apex/RNN
+copying build/lib.linux-x86_64-cpython-37/apex/RNN/__init__.py -> build/bdist.linux-x86_64/egg/apex/RNN
+copying build/lib.linux-x86_64-cpython-37/apex/RNN/cells.py -> build/bdist.linux-x86_64/egg/apex/RNN
+copying build/lib.linux-x86_64-cpython-37/apex/RNN/models.py -> build/bdist.linux-x86_64/egg/apex/RNN
+copying build/lib.linux-x86_64-cpython-37/apex/__init__.py -> build/bdist.linux-x86_64/egg/apex
+copying build/lib.linux-x86_64-cpython-37/apex/_autocast_utils.py -> build/bdist.linux-x86_64/egg/apex
+creating build/bdist.linux-x86_64/egg/apex/amp
+copying build/lib.linux-x86_64-cpython-37/apex/amp/__init__.py -> build/bdist.linux-x86_64/egg/apex/amp
+copying build/lib.linux-x86_64-cpython-37/apex/amp/__version__.py -> build/bdist.linux-x86_64/egg/apex/amp
+copying build/lib.linux-x86_64-cpython-37/apex/amp/_amp_state.py -> build/bdist.linux-x86_64/egg/apex/amp
+copying build/lib.linux-x86_64-cpython-37/apex/amp/_initialize.py -> build/bdist.linux-x86_64/egg/apex/amp
+copying build/lib.linux-x86_64-cpython-37/apex/amp/_process_optimizer.py -> build/bdist.linux-x86_64/egg/apex/amp
+copying build/lib.linux-x86_64-cpython-37/apex/amp/amp.py -> build/bdist.linux-x86_64/egg/apex/amp
+copying build/lib.linux-x86_64-cpython-37/apex/amp/compat.py -> build/bdist.linux-x86_64/egg/apex/amp
+copying build/lib.linux-x86_64-cpython-37/apex/amp/frontend.py -> build/bdist.linux-x86_64/egg/apex/amp
+copying build/lib.linux-x86_64-cpython-37/apex/amp/handle.py -> build/bdist.linux-x86_64/egg/apex/amp
+creating build/bdist.linux-x86_64/egg/apex/amp/lists
+copying build/lib.linux-x86_64-cpython-37/apex/amp/lists/__init__.py -> build/bdist.linux-x86_64/egg/apex/amp/lists
+copying build/lib.linux-x86_64-cpython-37/apex/amp/lists/functional_overrides.py -> build/bdist.linux-x86_64/egg/apex/amp/lists
+copying build/lib.linux-x86_64-cpython-37/apex/amp/lists/tensor_overrides.py -> build/bdist.linux-x86_64/egg/apex/amp/lists
+copying build/lib.linux-x86_64-cpython-37/apex/amp/lists/torch_overrides.py -> build/bdist.linux-x86_64/egg/apex/amp/lists
+copying build/lib.linux-x86_64-cpython-37/apex/amp/opt.py -> build/bdist.linux-x86_64/egg/apex/amp
+copying build/lib.linux-x86_64-cpython-37/apex/amp/rnn_compat.py -> build/bdist.linux-x86_64/egg/apex/amp
+copying build/lib.linux-x86_64-cpython-37/apex/amp/scaler.py -> build/bdist.linux-x86_64/egg/apex/amp
+copying build/lib.linux-x86_64-cpython-37/apex/amp/utils.py -> build/bdist.linux-x86_64/egg/apex/amp
+copying build/lib.linux-x86_64-cpython-37/apex/amp/wrap.py -> build/bdist.linux-x86_64/egg/apex/amp
+creating build/bdist.linux-x86_64/egg/apex/contrib
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/__init__.py -> build/bdist.linux-x86_64/egg/apex/contrib
+creating build/bdist.linux-x86_64/egg/apex/contrib/bottleneck
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/bottleneck/__init__.py -> build/bdist.linux-x86_64/egg/apex/contrib/bottleneck
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/bottleneck/bottleneck.py -> build/bdist.linux-x86_64/egg/apex/contrib/bottleneck
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/bottleneck/halo_exchangers.py -> build/bdist.linux-x86_64/egg/apex/contrib/bottleneck
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/bottleneck/test.py -> build/bdist.linux-x86_64/egg/apex/contrib/bottleneck
+creating build/bdist.linux-x86_64/egg/apex/contrib/clip_grad
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/clip_grad/__init__.py -> build/bdist.linux-x86_64/egg/apex/contrib/clip_grad
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/clip_grad/clip_grad.py -> build/bdist.linux-x86_64/egg/apex/contrib/clip_grad
+creating build/bdist.linux-x86_64/egg/apex/contrib/conv_bias_relu
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/conv_bias_relu/__init__.py -> build/bdist.linux-x86_64/egg/apex/contrib/conv_bias_relu
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/conv_bias_relu/conv_bias_relu.py -> build/bdist.linux-x86_64/egg/apex/contrib/conv_bias_relu
+creating build/bdist.linux-x86_64/egg/apex/contrib/cudnn_gbn
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/cudnn_gbn/__init__.py -> build/bdist.linux-x86_64/egg/apex/contrib/cudnn_gbn
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/cudnn_gbn/batch_norm.py -> build/bdist.linux-x86_64/egg/apex/contrib/cudnn_gbn
+creating build/bdist.linux-x86_64/egg/apex/contrib/fmha
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/fmha/__init__.py -> build/bdist.linux-x86_64/egg/apex/contrib/fmha
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/fmha/fmha.py -> build/bdist.linux-x86_64/egg/apex/contrib/fmha
+creating build/bdist.linux-x86_64/egg/apex/contrib/focal_loss
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/focal_loss/__init__.py -> build/bdist.linux-x86_64/egg/apex/contrib/focal_loss
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/focal_loss/focal_loss.py -> build/bdist.linux-x86_64/egg/apex/contrib/focal_loss
+creating build/bdist.linux-x86_64/egg/apex/contrib/groupbn
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/groupbn/__init__.py -> build/bdist.linux-x86_64/egg/apex/contrib/groupbn
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/groupbn/batch_norm.py -> build/bdist.linux-x86_64/egg/apex/contrib/groupbn
+creating build/bdist.linux-x86_64/egg/apex/contrib/index_mul_2d
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/index_mul_2d/__init__.py -> build/bdist.linux-x86_64/egg/apex/contrib/index_mul_2d
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/index_mul_2d/index_mul_2d.py -> build/bdist.linux-x86_64/egg/apex/contrib/index_mul_2d
+creating build/bdist.linux-x86_64/egg/apex/contrib/layer_norm
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/layer_norm/__init__.py -> build/bdist.linux-x86_64/egg/apex/contrib/layer_norm
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/layer_norm/layer_norm.py -> build/bdist.linux-x86_64/egg/apex/contrib/layer_norm
+creating build/bdist.linux-x86_64/egg/apex/contrib/multihead_attn
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/multihead_attn/__init__.py -> build/bdist.linux-x86_64/egg/apex/contrib/multihead_attn
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/multihead_attn/encdec_multihead_attn.py -> build/bdist.linux-x86_64/egg/apex/contrib/multihead_attn
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/multihead_attn/encdec_multihead_attn_func.py -> build/bdist.linux-x86_64/egg/apex/contrib/multihead_attn
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/multihead_attn/fast_encdec_multihead_attn_func.py -> build/bdist.linux-x86_64/egg/apex/contrib/multihead_attn
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/multihead_attn/fast_encdec_multihead_attn_norm_add_func.py -> build/bdist.linux-x86_64/egg/apex/contrib/multihead_attn
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/multihead_attn/fast_self_multihead_attn_func.py -> build/bdist.linux-x86_64/egg/apex/contrib/multihead_attn
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/multihead_attn/fast_self_multihead_attn_norm_add_func.py -> build/bdist.linux-x86_64/egg/apex/contrib/multihead_attn
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/multihead_attn/mask_softmax_dropout_func.py -> build/bdist.linux-x86_64/egg/apex/contrib/multihead_attn
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/multihead_attn/self_multihead_attn.py -> build/bdist.linux-x86_64/egg/apex/contrib/multihead_attn
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/multihead_attn/self_multihead_attn_func.py -> build/bdist.linux-x86_64/egg/apex/contrib/multihead_attn
+creating build/bdist.linux-x86_64/egg/apex/contrib/optimizers
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/optimizers/__init__.py -> build/bdist.linux-x86_64/egg/apex/contrib/optimizers
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/optimizers/distributed_fused_adam.py -> build/bdist.linux-x86_64/egg/apex/contrib/optimizers
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/optimizers/distributed_fused_lamb.py -> build/bdist.linux-x86_64/egg/apex/contrib/optimizers
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/optimizers/fp16_optimizer.py -> build/bdist.linux-x86_64/egg/apex/contrib/optimizers
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/optimizers/fused_adam.py -> build/bdist.linux-x86_64/egg/apex/contrib/optimizers
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/optimizers/fused_lamb.py -> build/bdist.linux-x86_64/egg/apex/contrib/optimizers
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/optimizers/fused_sgd.py -> build/bdist.linux-x86_64/egg/apex/contrib/optimizers
+creating build/bdist.linux-x86_64/egg/apex/contrib/peer_memory
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/peer_memory/__init__.py -> build/bdist.linux-x86_64/egg/apex/contrib/peer_memory
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/peer_memory/peer_halo_exchanger_1d.py -> build/bdist.linux-x86_64/egg/apex/contrib/peer_memory
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/peer_memory/peer_memory.py -> build/bdist.linux-x86_64/egg/apex/contrib/peer_memory
+creating build/bdist.linux-x86_64/egg/apex/contrib/sparsity
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/sparsity/__init__.py -> build/bdist.linux-x86_64/egg/apex/contrib/sparsity
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/sparsity/asp.py -> build/bdist.linux-x86_64/egg/apex/contrib/sparsity
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/sparsity/permutation_lib.py -> build/bdist.linux-x86_64/egg/apex/contrib/sparsity
+creating build/bdist.linux-x86_64/egg/apex/contrib/sparsity/permutation_search_kernels
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/sparsity/permutation_search_kernels/__init__.py -> build/bdist.linux-x86_64/egg/apex/contrib/sparsity/permutation_search_kernels
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/sparsity/permutation_search_kernels/call_permutation_search_kernels.py -> build/bdist.linux-x86_64/egg/apex/contrib/sparsity/permutation_search_kernels
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/sparsity/permutation_search_kernels/channel_swap.py -> build/bdist.linux-x86_64/egg/apex/contrib/sparsity/permutation_search_kernels
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/sparsity/permutation_search_kernels/exhaustive_search.py -> build/bdist.linux-x86_64/egg/apex/contrib/sparsity/permutation_search_kernels
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/sparsity/permutation_search_kernels/permutation_utilities.py -> build/bdist.linux-x86_64/egg/apex/contrib/sparsity/permutation_search_kernels
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/sparsity/sparse_masklib.py -> build/bdist.linux-x86_64/egg/apex/contrib/sparsity
+creating build/bdist.linux-x86_64/egg/apex/contrib/test
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/test/__init__.py -> build/bdist.linux-x86_64/egg/apex/contrib/test
+creating build/bdist.linux-x86_64/egg/apex/contrib/test/bottleneck
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/test/bottleneck/__init__.py -> build/bdist.linux-x86_64/egg/apex/contrib/test/bottleneck
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/test/bottleneck/test_bottleneck_module.py -> build/bdist.linux-x86_64/egg/apex/contrib/test/bottleneck
+creating build/bdist.linux-x86_64/egg/apex/contrib/test/clip_grad
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/test/clip_grad/__init__.py -> build/bdist.linux-x86_64/egg/apex/contrib/test/clip_grad
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/test/clip_grad/test_clip_grad.py -> build/bdist.linux-x86_64/egg/apex/contrib/test/clip_grad
+creating build/bdist.linux-x86_64/egg/apex/contrib/test/conv_bias_relu
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/test/conv_bias_relu/__init__.py -> build/bdist.linux-x86_64/egg/apex/contrib/test/conv_bias_relu
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/test/conv_bias_relu/test_conv_bias_relu.py -> build/bdist.linux-x86_64/egg/apex/contrib/test/conv_bias_relu
+creating build/bdist.linux-x86_64/egg/apex/contrib/test/cudnn_gbn
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/test/cudnn_gbn/__init__.py -> build/bdist.linux-x86_64/egg/apex/contrib/test/cudnn_gbn
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/test/cudnn_gbn/test_cudnn_gbn_with_two_gpus.py -> build/bdist.linux-x86_64/egg/apex/contrib/test/cudnn_gbn
+creating build/bdist.linux-x86_64/egg/apex/contrib/test/fmha
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/test/fmha/__init__.py -> build/bdist.linux-x86_64/egg/apex/contrib/test/fmha
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/test/fmha/test_fmha.py -> build/bdist.linux-x86_64/egg/apex/contrib/test/fmha
+creating build/bdist.linux-x86_64/egg/apex/contrib/test/focal_loss
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/test/focal_loss/__init__.py -> build/bdist.linux-x86_64/egg/apex/contrib/test/focal_loss
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/test/focal_loss/test_focal_loss.py -> build/bdist.linux-x86_64/egg/apex/contrib/test/focal_loss
+creating build/bdist.linux-x86_64/egg/apex/contrib/test/index_mul_2d
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/test/index_mul_2d/__init__.py -> build/bdist.linux-x86_64/egg/apex/contrib/test/index_mul_2d
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/test/index_mul_2d/test_index_mul_2d.py -> build/bdist.linux-x86_64/egg/apex/contrib/test/index_mul_2d
+creating build/bdist.linux-x86_64/egg/apex/contrib/test/layer_norm
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/test/layer_norm/__init__.py -> build/bdist.linux-x86_64/egg/apex/contrib/test/layer_norm
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/test/layer_norm/test_fast_layer_norm.py -> build/bdist.linux-x86_64/egg/apex/contrib/test/layer_norm
+creating build/bdist.linux-x86_64/egg/apex/contrib/test/multihead_attn
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/test/multihead_attn/__init__.py -> build/bdist.linux-x86_64/egg/apex/contrib/test/multihead_attn
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/test/multihead_attn/test_encdec_multihead_attn.py -> build/bdist.linux-x86_64/egg/apex/contrib/test/multihead_attn
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/test/multihead_attn/test_encdec_multihead_attn_norm_add.py -> build/bdist.linux-x86_64/egg/apex/contrib/test/multihead_attn
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/test/multihead_attn/test_fast_self_multihead_attn_bias.py -> build/bdist.linux-x86_64/egg/apex/contrib/test/multihead_attn
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/test/multihead_attn/test_mha_fused_softmax.py -> build/bdist.linux-x86_64/egg/apex/contrib/test/multihead_attn
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/test/multihead_attn/test_self_multihead_attn.py -> build/bdist.linux-x86_64/egg/apex/contrib/test/multihead_attn
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/test/multihead_attn/test_self_multihead_attn_norm_add.py -> build/bdist.linux-x86_64/egg/apex/contrib/test/multihead_attn
+creating build/bdist.linux-x86_64/egg/apex/contrib/test/optimizers
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/test/optimizers/__init__.py -> build/bdist.linux-x86_64/egg/apex/contrib/test/optimizers
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/test/optimizers/test_dist_adam.py -> build/bdist.linux-x86_64/egg/apex/contrib/test/optimizers
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/test/optimizers/test_distributed_fused_lamb.py -> build/bdist.linux-x86_64/egg/apex/contrib/test/optimizers
+creating build/bdist.linux-x86_64/egg/apex/contrib/test/peer_memory
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/test/peer_memory/__init__.py -> build/bdist.linux-x86_64/egg/apex/contrib/test/peer_memory
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/test/peer_memory/test_peer_halo_exchange_module.py -> build/bdist.linux-x86_64/egg/apex/contrib/test/peer_memory
+creating build/bdist.linux-x86_64/egg/apex/contrib/test/transducer
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/test/transducer/__init__.py -> build/bdist.linux-x86_64/egg/apex/contrib/test/transducer
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/test/transducer/test_transducer_joint.py -> build/bdist.linux-x86_64/egg/apex/contrib/test/transducer
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/test/transducer/test_transducer_loss.py -> build/bdist.linux-x86_64/egg/apex/contrib/test/transducer
+creating build/bdist.linux-x86_64/egg/apex/contrib/test/xentropy
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/test/xentropy/__init__.py -> build/bdist.linux-x86_64/egg/apex/contrib/test/xentropy
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/test/xentropy/test_label_smoothing.py -> build/bdist.linux-x86_64/egg/apex/contrib/test/xentropy
+creating build/bdist.linux-x86_64/egg/apex/contrib/transducer
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/transducer/__init__.py -> build/bdist.linux-x86_64/egg/apex/contrib/transducer
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/transducer/_transducer_ref.py -> build/bdist.linux-x86_64/egg/apex/contrib/transducer
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/transducer/transducer.py -> build/bdist.linux-x86_64/egg/apex/contrib/transducer
+creating build/bdist.linux-x86_64/egg/apex/contrib/xentropy
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/xentropy/__init__.py -> build/bdist.linux-x86_64/egg/apex/contrib/xentropy
+copying build/lib.linux-x86_64-cpython-37/apex/contrib/xentropy/softmax_xentropy.py -> build/bdist.linux-x86_64/egg/apex/contrib/xentropy
+creating build/bdist.linux-x86_64/egg/apex/fp16_utils
+copying build/lib.linux-x86_64-cpython-37/apex/fp16_utils/__init__.py -> build/bdist.linux-x86_64/egg/apex/fp16_utils
+copying build/lib.linux-x86_64-cpython-37/apex/fp16_utils/fp16_optimizer.py -> build/bdist.linux-x86_64/egg/apex/fp16_utils
+copying build/lib.linux-x86_64-cpython-37/apex/fp16_utils/fp16util.py -> build/bdist.linux-x86_64/egg/apex/fp16_utils
+copying build/lib.linux-x86_64-cpython-37/apex/fp16_utils/loss_scaler.py -> build/bdist.linux-x86_64/egg/apex/fp16_utils
+creating build/bdist.linux-x86_64/egg/apex/fused_dense
+copying build/lib.linux-x86_64-cpython-37/apex/fused_dense/__init__.py -> build/bdist.linux-x86_64/egg/apex/fused_dense
+copying build/lib.linux-x86_64-cpython-37/apex/fused_dense/fused_dense.py -> build/bdist.linux-x86_64/egg/apex/fused_dense
+creating build/bdist.linux-x86_64/egg/apex/mlp
+copying build/lib.linux-x86_64-cpython-37/apex/mlp/__init__.py -> build/bdist.linux-x86_64/egg/apex/mlp
+copying build/lib.linux-x86_64-cpython-37/apex/mlp/mlp.py -> build/bdist.linux-x86_64/egg/apex/mlp
+creating build/bdist.linux-x86_64/egg/apex/multi_tensor_apply
+copying build/lib.linux-x86_64-cpython-37/apex/multi_tensor_apply/__init__.py -> build/bdist.linux-x86_64/egg/apex/multi_tensor_apply
+copying build/lib.linux-x86_64-cpython-37/apex/multi_tensor_apply/multi_tensor_apply.py -> build/bdist.linux-x86_64/egg/apex/multi_tensor_apply
+creating build/bdist.linux-x86_64/egg/apex/normalization
+copying build/lib.linux-x86_64-cpython-37/apex/normalization/__init__.py -> build/bdist.linux-x86_64/egg/apex/normalization
+copying build/lib.linux-x86_64-cpython-37/apex/normalization/fused_layer_norm.py -> build/bdist.linux-x86_64/egg/apex/normalization
+creating build/bdist.linux-x86_64/egg/apex/optimizers
+copying build/lib.linux-x86_64-cpython-37/apex/optimizers/__init__.py -> build/bdist.linux-x86_64/egg/apex/optimizers
+copying build/lib.linux-x86_64-cpython-37/apex/optimizers/fused_adagrad.py -> build/bdist.linux-x86_64/egg/apex/optimizers
+copying build/lib.linux-x86_64-cpython-37/apex/optimizers/fused_adam.py -> build/bdist.linux-x86_64/egg/apex/optimizers
+copying build/lib.linux-x86_64-cpython-37/apex/optimizers/fused_lamb.py -> build/bdist.linux-x86_64/egg/apex/optimizers
+copying build/lib.linux-x86_64-cpython-37/apex/optimizers/fused_mixed_precision_lamb.py -> build/bdist.linux-x86_64/egg/apex/optimizers
+copying build/lib.linux-x86_64-cpython-37/apex/optimizers/fused_novograd.py -> build/bdist.linux-x86_64/egg/apex/optimizers
+copying build/lib.linux-x86_64-cpython-37/apex/optimizers/fused_sgd.py -> build/bdist.linux-x86_64/egg/apex/optimizers
+creating build/bdist.linux-x86_64/egg/apex/parallel
+copying build/lib.linux-x86_64-cpython-37/apex/parallel/LARC.py -> build/bdist.linux-x86_64/egg/apex/parallel
+copying build/lib.linux-x86_64-cpython-37/apex/parallel/__init__.py -> build/bdist.linux-x86_64/egg/apex/parallel
+copying build/lib.linux-x86_64-cpython-37/apex/parallel/distributed.py -> build/bdist.linux-x86_64/egg/apex/parallel
+copying build/lib.linux-x86_64-cpython-37/apex/parallel/multiproc.py -> build/bdist.linux-x86_64/egg/apex/parallel
+copying build/lib.linux-x86_64-cpython-37/apex/parallel/optimized_sync_batchnorm.py -> build/bdist.linux-x86_64/egg/apex/parallel
+copying build/lib.linux-x86_64-cpython-37/apex/parallel/optimized_sync_batchnorm_kernel.py -> build/bdist.linux-x86_64/egg/apex/parallel
+copying build/lib.linux-x86_64-cpython-37/apex/parallel/sync_batchnorm.py -> build/bdist.linux-x86_64/egg/apex/parallel
+copying build/lib.linux-x86_64-cpython-37/apex/parallel/sync_batchnorm_kernel.py -> build/bdist.linux-x86_64/egg/apex/parallel
+creating build/bdist.linux-x86_64/egg/apex/transformer
+copying build/lib.linux-x86_64-cpython-37/apex/transformer/__init__.py -> build/bdist.linux-x86_64/egg/apex/transformer
+creating build/bdist.linux-x86_64/egg/apex/transformer/_data
+copying build/lib.linux-x86_64-cpython-37/apex/transformer/_data/__init__.py -> build/bdist.linux-x86_64/egg/apex/transformer/_data
+copying build/lib.linux-x86_64-cpython-37/apex/transformer/_data/_batchsampler.py -> build/bdist.linux-x86_64/egg/apex/transformer/_data
+copying build/lib.linux-x86_64-cpython-37/apex/transformer/_ucc_util.py -> build/bdist.linux-x86_64/egg/apex/transformer
+creating build/bdist.linux-x86_64/egg/apex/transformer/amp
+copying build/lib.linux-x86_64-cpython-37/apex/transformer/amp/__init__.py -> build/bdist.linux-x86_64/egg/apex/transformer/amp
+copying build/lib.linux-x86_64-cpython-37/apex/transformer/amp/grad_scaler.py -> build/bdist.linux-x86_64/egg/apex/transformer/amp
+copying build/lib.linux-x86_64-cpython-37/apex/transformer/enums.py -> build/bdist.linux-x86_64/egg/apex/transformer
+creating build/bdist.linux-x86_64/egg/apex/transformer/functional
+copying build/lib.linux-x86_64-cpython-37/apex/transformer/functional/__init__.py -> build/bdist.linux-x86_64/egg/apex/transformer/functional
+copying build/lib.linux-x86_64-cpython-37/apex/transformer/functional/fused_softmax.py -> build/bdist.linux-x86_64/egg/apex/transformer/functional
+creating build/bdist.linux-x86_64/egg/apex/transformer/layers
+copying build/lib.linux-x86_64-cpython-37/apex/transformer/layers/__init__.py -> build/bdist.linux-x86_64/egg/apex/transformer/layers
+copying build/lib.linux-x86_64-cpython-37/apex/transformer/layers/layer_norm.py -> build/bdist.linux-x86_64/egg/apex/transformer/layers
+copying build/lib.linux-x86_64-cpython-37/apex/transformer/log_util.py -> build/bdist.linux-x86_64/egg/apex/transformer
+copying build/lib.linux-x86_64-cpython-37/apex/transformer/microbatches.py -> build/bdist.linux-x86_64/egg/apex/transformer
+copying build/lib.linux-x86_64-cpython-37/apex/transformer/parallel_state.py -> build/bdist.linux-x86_64/egg/apex/transformer
+creating build/bdist.linux-x86_64/egg/apex/transformer/pipeline_parallel
+copying build/lib.linux-x86_64-cpython-37/apex/transformer/pipeline_parallel/__init__.py -> build/bdist.linux-x86_64/egg/apex/transformer/pipeline_parallel
+copying build/lib.linux-x86_64-cpython-37/apex/transformer/pipeline_parallel/_timers.py -> build/bdist.linux-x86_64/egg/apex/transformer/pipeline_parallel
+copying build/lib.linux-x86_64-cpython-37/apex/transformer/pipeline_parallel/p2p_communication.py -> build/bdist.linux-x86_64/egg/apex/transformer/pipeline_parallel
+creating build/bdist.linux-x86_64/egg/apex/transformer/pipeline_parallel/schedules
+copying build/lib.linux-x86_64-cpython-37/apex/transformer/pipeline_parallel/schedules/__init__.py -> build/bdist.linux-x86_64/egg/apex/transformer/pipeline_parallel/schedules
+copying build/lib.linux-x86_64-cpython-37/apex/transformer/pipeline_parallel/schedules/common.py -> build/bdist.linux-x86_64/egg/apex/transformer/pipeline_parallel/schedules
+copying build/lib.linux-x86_64-cpython-37/apex/transformer/pipeline_parallel/schedules/fwd_bwd_no_pipelining.py -> build/bdist.linux-x86_64/egg/apex/transformer/pipeline_parallel/schedules
+copying build/lib.linux-x86_64-cpython-37/apex/transformer/pipeline_parallel/schedules/fwd_bwd_pipelining_with_interleaving.py -> build/bdist.linux-x86_64/egg/apex/transformer/pipeline_parallel/schedules
+copying build/lib.linux-x86_64-cpython-37/apex/transformer/pipeline_parallel/schedules/fwd_bwd_pipelining_without_interleaving.py -> build/bdist.linux-x86_64/egg/apex/transformer/pipeline_parallel/schedules
+copying build/lib.linux-x86_64-cpython-37/apex/transformer/pipeline_parallel/utils.py -> build/bdist.linux-x86_64/egg/apex/transformer/pipeline_parallel
+creating build/bdist.linux-x86_64/egg/apex/transformer/tensor_parallel
+copying build/lib.linux-x86_64-cpython-37/apex/transformer/tensor_parallel/__init__.py -> build/bdist.linux-x86_64/egg/apex/transformer/tensor_parallel
+copying build/lib.linux-x86_64-cpython-37/apex/transformer/tensor_parallel/cross_entropy.py -> build/bdist.linux-x86_64/egg/apex/transformer/tensor_parallel
+copying build/lib.linux-x86_64-cpython-37/apex/transformer/tensor_parallel/data.py -> build/bdist.linux-x86_64/egg/apex/transformer/tensor_parallel
+copying build/lib.linux-x86_64-cpython-37/apex/transformer/tensor_parallel/layers.py -> build/bdist.linux-x86_64/egg/apex/transformer/tensor_parallel
+copying build/lib.linux-x86_64-cpython-37/apex/transformer/tensor_parallel/mappings.py -> build/bdist.linux-x86_64/egg/apex/transformer/tensor_parallel
+copying build/lib.linux-x86_64-cpython-37/apex/transformer/tensor_parallel/memory.py -> build/bdist.linux-x86_64/egg/apex/transformer/tensor_parallel
+copying build/lib.linux-x86_64-cpython-37/apex/transformer/tensor_parallel/random.py -> build/bdist.linux-x86_64/egg/apex/transformer/tensor_parallel
+copying build/lib.linux-x86_64-cpython-37/apex/transformer/tensor_parallel/utils.py -> build/bdist.linux-x86_64/egg/apex/transformer/tensor_parallel
+creating build/bdist.linux-x86_64/egg/apex/transformer/testing
+copying build/lib.linux-x86_64-cpython-37/apex/transformer/testing/__init__.py -> build/bdist.linux-x86_64/egg/apex/transformer/testing
+copying build/lib.linux-x86_64-cpython-37/apex/transformer/testing/arguments.py -> build/bdist.linux-x86_64/egg/apex/transformer/testing
+copying build/lib.linux-x86_64-cpython-37/apex/transformer/testing/commons.py -> build/bdist.linux-x86_64/egg/apex/transformer/testing
+copying build/lib.linux-x86_64-cpython-37/apex/transformer/testing/distributed_test_base.py -> build/bdist.linux-x86_64/egg/apex/transformer/testing
+copying build/lib.linux-x86_64-cpython-37/apex/transformer/testing/global_vars.py -> build/bdist.linux-x86_64/egg/apex/transformer/testing
+copying build/lib.linux-x86_64-cpython-37/apex/transformer/testing/standalone_bert.py -> build/bdist.linux-x86_64/egg/apex/transformer/testing
+copying build/lib.linux-x86_64-cpython-37/apex/transformer/testing/standalone_gpt.py -> build/bdist.linux-x86_64/egg/apex/transformer/testing
+copying build/lib.linux-x86_64-cpython-37/apex/transformer/testing/standalone_transformer_lm.py -> build/bdist.linux-x86_64/egg/apex/transformer/testing
+copying build/lib.linux-x86_64-cpython-37/apex/transformer/utils.py -> build/bdist.linux-x86_64/egg/apex/transformer
+copying build/lib.linux-x86_64-cpython-37/fused_dense_cuda.cpython-37m-x86_64-linux-gnu.so -> build/bdist.linux-x86_64/egg
+copying build/lib.linux-x86_64-cpython-37/fused_layer_norm_cuda.cpython-37m-x86_64-linux-gnu.so -> build/bdist.linux-x86_64/egg
+copying build/lib.linux-x86_64-cpython-37/fused_weight_gradient_mlp_cuda.cpython-37m-x86_64-linux-gnu.so -> build/bdist.linux-x86_64/egg
+copying build/lib.linux-x86_64-cpython-37/generic_scaled_masked_softmax_cuda.cpython-37m-x86_64-linux-gnu.so -> build/bdist.linux-x86_64/egg
+copying build/lib.linux-x86_64-cpython-37/mlp_cuda.cpython-37m-x86_64-linux-gnu.so -> build/bdist.linux-x86_64/egg
+copying build/lib.linux-x86_64-cpython-37/scaled_masked_softmax_cuda.cpython-37m-x86_64-linux-gnu.so -> build/bdist.linux-x86_64/egg
+copying build/lib.linux-x86_64-cpython-37/scaled_softmax_cuda.cpython-37m-x86_64-linux-gnu.so -> build/bdist.linux-x86_64/egg
+copying build/lib.linux-x86_64-cpython-37/scaled_upper_triang_masked_softmax_cuda.cpython-37m-x86_64-linux-gnu.so -> build/bdist.linux-x86_64/egg
+copying build/lib.linux-x86_64-cpython-37/syncbn.cpython-37m-x86_64-linux-gnu.so -> build/bdist.linux-x86_64/egg
+byte-compiling build/bdist.linux-x86_64/egg/apex/RNN/RNNBackend.py to RNNBackend.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/RNN/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/RNN/cells.py to cells.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/RNN/models.py to models.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/_autocast_utils.py to _autocast_utils.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/amp/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/amp/__version__.py to __version__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/amp/_amp_state.py to _amp_state.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/amp/_initialize.py to _initialize.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/amp/_process_optimizer.py to _process_optimizer.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/amp/amp.py to amp.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/amp/compat.py to compat.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/amp/frontend.py to frontend.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/amp/handle.py to handle.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/amp/lists/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/amp/lists/functional_overrides.py to functional_overrides.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/amp/lists/tensor_overrides.py to tensor_overrides.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/amp/lists/torch_overrides.py to torch_overrides.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/amp/opt.py to opt.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/amp/rnn_compat.py to rnn_compat.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/amp/scaler.py to scaler.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/amp/utils.py to utils.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/amp/wrap.py to wrap.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/bottleneck/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/bottleneck/bottleneck.py to bottleneck.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/bottleneck/halo_exchangers.py to halo_exchangers.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/bottleneck/test.py to test.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/clip_grad/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/clip_grad/clip_grad.py to clip_grad.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/conv_bias_relu/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/conv_bias_relu/conv_bias_relu.py to conv_bias_relu.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/cudnn_gbn/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/cudnn_gbn/batch_norm.py to batch_norm.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/fmha/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/fmha/fmha.py to fmha.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/focal_loss/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/focal_loss/focal_loss.py to focal_loss.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/groupbn/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/groupbn/batch_norm.py to batch_norm.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/index_mul_2d/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/index_mul_2d/index_mul_2d.py to index_mul_2d.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/layer_norm/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/layer_norm/layer_norm.py to layer_norm.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/multihead_attn/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/multihead_attn/encdec_multihead_attn.py to encdec_multihead_attn.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/multihead_attn/encdec_multihead_attn_func.py to encdec_multihead_attn_func.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/multihead_attn/fast_encdec_multihead_attn_func.py to fast_encdec_multihead_attn_func.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/multihead_attn/fast_encdec_multihead_attn_norm_add_func.py to fast_encdec_multihead_attn_norm_add_func.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/multihead_attn/fast_self_multihead_attn_func.py to fast_self_multihead_attn_func.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/multihead_attn/fast_self_multihead_attn_norm_add_func.py to fast_self_multihead_attn_norm_add_func.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/multihead_attn/mask_softmax_dropout_func.py to mask_softmax_dropout_func.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/multihead_attn/self_multihead_attn.py to self_multihead_attn.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/multihead_attn/self_multihead_attn_func.py to self_multihead_attn_func.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/optimizers/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/optimizers/distributed_fused_adam.py to distributed_fused_adam.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/optimizers/distributed_fused_lamb.py to distributed_fused_lamb.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/optimizers/fp16_optimizer.py to fp16_optimizer.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/optimizers/fused_adam.py to fused_adam.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/optimizers/fused_lamb.py to fused_lamb.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/optimizers/fused_sgd.py to fused_sgd.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/peer_memory/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/peer_memory/peer_halo_exchanger_1d.py to peer_halo_exchanger_1d.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/peer_memory/peer_memory.py to peer_memory.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/sparsity/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/sparsity/asp.py to asp.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/sparsity/permutation_lib.py to permutation_lib.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/sparsity/permutation_search_kernels/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/sparsity/permutation_search_kernels/call_permutation_search_kernels.py to call_permutation_search_kernels.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/sparsity/permutation_search_kernels/channel_swap.py to channel_swap.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/sparsity/permutation_search_kernels/exhaustive_search.py to exhaustive_search.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/sparsity/permutation_search_kernels/permutation_utilities.py to permutation_utilities.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/sparsity/sparse_masklib.py to sparse_masklib.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/test/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/test/bottleneck/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/test/bottleneck/test_bottleneck_module.py to test_bottleneck_module.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/test/clip_grad/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/test/clip_grad/test_clip_grad.py to test_clip_grad.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/test/conv_bias_relu/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/test/conv_bias_relu/test_conv_bias_relu.py to test_conv_bias_relu.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/test/cudnn_gbn/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/test/cudnn_gbn/test_cudnn_gbn_with_two_gpus.py to test_cudnn_gbn_with_two_gpus.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/test/fmha/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/test/fmha/test_fmha.py to test_fmha.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/test/focal_loss/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/test/focal_loss/test_focal_loss.py to test_focal_loss.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/test/index_mul_2d/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/test/index_mul_2d/test_index_mul_2d.py to test_index_mul_2d.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/test/layer_norm/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/test/layer_norm/test_fast_layer_norm.py to test_fast_layer_norm.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/test/multihead_attn/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/test/multihead_attn/test_encdec_multihead_attn.py to test_encdec_multihead_attn.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/test/multihead_attn/test_encdec_multihead_attn_norm_add.py to test_encdec_multihead_attn_norm_add.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/test/multihead_attn/test_fast_self_multihead_attn_bias.py to test_fast_self_multihead_attn_bias.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/test/multihead_attn/test_mha_fused_softmax.py to test_mha_fused_softmax.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/test/multihead_attn/test_self_multihead_attn.py to test_self_multihead_attn.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/test/multihead_attn/test_self_multihead_attn_norm_add.py to test_self_multihead_attn_norm_add.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/test/optimizers/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/test/optimizers/test_dist_adam.py to test_dist_adam.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/test/optimizers/test_distributed_fused_lamb.py to test_distributed_fused_lamb.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/test/peer_memory/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/test/peer_memory/test_peer_halo_exchange_module.py to test_peer_halo_exchange_module.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/test/transducer/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/test/transducer/test_transducer_joint.py to test_transducer_joint.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/test/transducer/test_transducer_loss.py to test_transducer_loss.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/test/xentropy/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/test/xentropy/test_label_smoothing.py to test_label_smoothing.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/transducer/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/transducer/_transducer_ref.py to _transducer_ref.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/transducer/transducer.py to transducer.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/xentropy/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/contrib/xentropy/softmax_xentropy.py to softmax_xentropy.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/fp16_utils/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/fp16_utils/fp16_optimizer.py to fp16_optimizer.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/fp16_utils/fp16util.py to fp16util.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/fp16_utils/loss_scaler.py to loss_scaler.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/fused_dense/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/fused_dense/fused_dense.py to fused_dense.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/mlp/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/mlp/mlp.py to mlp.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/multi_tensor_apply/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/multi_tensor_apply/multi_tensor_apply.py to multi_tensor_apply.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/normalization/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/normalization/fused_layer_norm.py to fused_layer_norm.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/optimizers/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/optimizers/fused_adagrad.py to fused_adagrad.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/optimizers/fused_adam.py to fused_adam.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/optimizers/fused_lamb.py to fused_lamb.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/optimizers/fused_mixed_precision_lamb.py to fused_mixed_precision_lamb.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/optimizers/fused_novograd.py to fused_novograd.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/optimizers/fused_sgd.py to fused_sgd.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/parallel/LARC.py to LARC.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/parallel/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/parallel/distributed.py to distributed.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/parallel/multiproc.py to multiproc.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/parallel/optimized_sync_batchnorm.py to optimized_sync_batchnorm.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/parallel/optimized_sync_batchnorm_kernel.py to optimized_sync_batchnorm_kernel.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/parallel/sync_batchnorm.py to sync_batchnorm.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/parallel/sync_batchnorm_kernel.py to sync_batchnorm_kernel.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/transformer/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/transformer/_data/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/transformer/_data/_batchsampler.py to _batchsampler.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/transformer/_ucc_util.py to _ucc_util.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/transformer/amp/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/transformer/amp/grad_scaler.py to grad_scaler.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/transformer/enums.py to enums.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/transformer/functional/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/transformer/functional/fused_softmax.py to fused_softmax.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/transformer/layers/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/transformer/layers/layer_norm.py to layer_norm.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/transformer/log_util.py to log_util.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/transformer/microbatches.py to microbatches.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/transformer/parallel_state.py to parallel_state.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/transformer/pipeline_parallel/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/transformer/pipeline_parallel/_timers.py to _timers.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/transformer/pipeline_parallel/p2p_communication.py to p2p_communication.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/transformer/pipeline_parallel/schedules/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/transformer/pipeline_parallel/schedules/common.py to common.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/transformer/pipeline_parallel/schedules/fwd_bwd_no_pipelining.py to fwd_bwd_no_pipelining.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/transformer/pipeline_parallel/schedules/fwd_bwd_pipelining_with_interleaving.py to fwd_bwd_pipelining_with_interleaving.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/transformer/pipeline_parallel/schedules/fwd_bwd_pipelining_without_interleaving.py to fwd_bwd_pipelining_without_interleaving.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/transformer/pipeline_parallel/utils.py to utils.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/transformer/tensor_parallel/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/transformer/tensor_parallel/cross_entropy.py to cross_entropy.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/transformer/tensor_parallel/data.py to data.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/transformer/tensor_parallel/layers.py to layers.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/transformer/tensor_parallel/mappings.py to mappings.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/transformer/tensor_parallel/memory.py to memory.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/transformer/tensor_parallel/random.py to random.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/transformer/tensor_parallel/utils.py to utils.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/transformer/testing/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/transformer/testing/arguments.py to arguments.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/transformer/testing/commons.py to commons.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/transformer/testing/distributed_test_base.py to distributed_test_base.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/transformer/testing/global_vars.py to global_vars.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/transformer/testing/standalone_bert.py to standalone_bert.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/transformer/testing/standalone_gpt.py to standalone_gpt.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/transformer/testing/standalone_transformer_lm.py to standalone_transformer_lm.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/apex/transformer/utils.py to utils.cpython-37.pyc
+creating stub loader for amp_C.cpython-37m-x86_64-linux-gnu.so
+creating stub loader for syncbn.cpython-37m-x86_64-linux-gnu.so
+creating stub loader for fused_layer_norm_cuda.cpython-37m-x86_64-linux-gnu.so
+creating stub loader for mlp_cuda.cpython-37m-x86_64-linux-gnu.so
+creating stub loader for fused_dense_cuda.cpython-37m-x86_64-linux-gnu.so
+creating stub loader for scaled_upper_triang_masked_softmax_cuda.cpython-37m-x86_64-linux-gnu.so
+creating stub loader for generic_scaled_masked_softmax_cuda.cpython-37m-x86_64-linux-gnu.so
+creating stub loader for scaled_masked_softmax_cuda.cpython-37m-x86_64-linux-gnu.so
+creating stub loader for scaled_softmax_cuda.cpython-37m-x86_64-linux-gnu.so
+creating stub loader for fused_weight_gradient_mlp_cuda.cpython-37m-x86_64-linux-gnu.so
+byte-compiling build/bdist.linux-x86_64/egg/amp_C.py to amp_C.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/syncbn.py to syncbn.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/fused_layer_norm_cuda.py to fused_layer_norm_cuda.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mlp_cuda.py to mlp_cuda.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/fused_dense_cuda.py to fused_dense_cuda.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/scaled_upper_triang_masked_softmax_cuda.py to scaled_upper_triang_masked_softmax_cuda.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/generic_scaled_masked_softmax_cuda.py to generic_scaled_masked_softmax_cuda.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/scaled_masked_softmax_cuda.py to scaled_masked_softmax_cuda.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/scaled_softmax_cuda.py to scaled_softmax_cuda.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/fused_weight_gradient_mlp_cuda.py to fused_weight_gradient_mlp_cuda.cpython-37.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying apex.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying apex.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying apex.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying apex.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying apex.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+writing build/bdist.linux-x86_64/egg/EGG-INFO/native_libs.txt
+creating dist
+creating 'dist/apex-0.1-py3.7-linux-x86_64.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing apex-0.1-py3.7-linux-x86_64.egg
+creating /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/apex-0.1-py3.7-linux-x86_64.egg
+Extracting apex-0.1-py3.7-linux-x86_64.egg to /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages
+Adding apex 0.1 to easy-install.pth file
+
+Installed /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/apex-0.1-py3.7-linux-x86_64.egg
+Processing dependencies for apex==0.1
+Searching for packaging==23.0
+Best match: packaging 23.0
+Adding packaging 23.0 to easy-install.pth file
+
+Using /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages
+Finished processing dependencies for apex==0.1
+Collecting sacrebleu==1.2.11
+  Using cached sacrebleu-1.2.11-py3-none-any.whl
+Collecting javalang
+  Using cached javalang-0.13.0-py3-none-any.whl (22 kB)
+Collecting tree_sitter
+  Using cached tree_sitter-0.20.1-cp37-cp37m-linux_x86_64.whl
+Collecting psutil
+  Using cached psutil-5.9.4-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (280 kB)
+Requirement already satisfied: fastBPE in /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages/fastBPE-0.1.1-py3.7-linux-x86_64.egg (0.1.1)
+Collecting typing
+  Using cached typing-3.7.4.3-py3-none-any.whl
+Requirement already satisfied: six in /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages (from javalang) (1.16.0)
+Installing collected packages: typing, tree_sitter, psutil, javalang, sacrebleu
+Successfully installed javalang-0.13.0 psutil-5.9.4 sacrebleu-1.2.11 tree_sitter-0.20.1 typing-3.7.4.3
+Collecting hydra-core
+  Using cached hydra_core-1.3.2-py3-none-any.whl (154 kB)
+Collecting omegaconf<2.4,>=2.2
+  Using cached omegaconf-2.3.0-py3-none-any.whl (79 kB)
+Requirement already satisfied: packaging in /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages (from hydra-core) (23.0)
+Collecting antlr4-python3-runtime==4.9.*
+  Using cached antlr4_python3_runtime-4.9.3-py3-none-any.whl
+Collecting importlib-resources
+  Using cached importlib_resources-5.12.0-py3-none-any.whl (36 kB)
+Requirement already satisfied: PyYAML>=5.1.0 in /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages (from omegaconf<2.4,>=2.2->hydra-core) (6.0)
+Requirement already satisfied: zipp>=3.1.0 in /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages (from importlib-resources->hydra-core) (3.15.0)
+Installing collected packages: antlr4-python3-runtime, omegaconf, importlib-resources, hydra-core
+Successfully installed antlr4-python3-runtime-4.9.3 hydra-core-1.3.2 importlib-resources-5.12.0 omegaconf-2.3.0
+Collecting black==19.10b0
+  Using cached black-19.10b0-py36-none-any.whl (97 kB)
+Collecting attrs>=18.1.0
+  Using cached attrs-22.2.0-py3-none-any.whl (60 kB)
+Collecting appdirs
+  Using cached appdirs-1.4.4-py2.py3-none-any.whl (9.6 kB)
+Collecting click>=6.5
+  Using cached click-8.1.3-py3-none-any.whl (96 kB)
+Requirement already satisfied: regex in /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages (from black==19.10b0) (2022.10.31)
+Collecting typed-ast>=1.4.0
+  Using cached typed_ast-1.5.4-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl (843 kB)
+Collecting pathspec<1,>=0.6
+  Using cached pathspec-0.11.1-py3-none-any.whl (29 kB)
+Collecting toml>=0.9.4
+  Using cached toml-0.10.2-py2.py3-none-any.whl (16 kB)
+Requirement already satisfied: importlib-metadata in /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages (from click>=6.5->black==19.10b0) (6.1.0)
+Requirement already satisfied: zipp>=0.5 in /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages (from importlib-metadata->click>=6.5->black==19.10b0) (3.15.0)
+Requirement already satisfied: typing-extensions>=3.6.4 in /home/vbojanapally_umass_edu/.conda/envs/transCoder_env/lib/python3.7/site-packages (from importlib-metadata->click>=6.5->black==19.10b0) (4.5.0)
+Installing collected packages: appdirs, typed-ast, toml, pathspec, attrs, click, black
+Successfully installed appdirs-1.4.4 attrs-22.2.0 black-19.10b0 click-8.1.3 pathspec-0.11.1 toml-0.10.2 typed-ast-1.5.4
