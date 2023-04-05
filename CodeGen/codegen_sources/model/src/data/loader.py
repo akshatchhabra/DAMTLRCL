@@ -552,7 +552,7 @@ def check_data_params(params):
     )
     required_para = (
         required_para_train
-        | set([(l2, l3) for _, l2, l3 in params.bt_steps])
+        # | set([(l2, l3) for _, l2, l3 in params.bt_steps])
         | set([(l1, l2) for l1, langs2 in params.st_steps for l2 in langs2])
         | set([(l2, l1) for l1, langs2 in params.st_steps for l2 in langs2])
         | set(
