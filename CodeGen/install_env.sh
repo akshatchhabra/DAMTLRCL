@@ -17,13 +17,13 @@ module load cuda/11.7.0
 pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu117
 pip3 install six scikit-learn stringcase transformers ply slimit astunparse submitit
 pip install cython
-cd codegen_sources/model/tools
+# cd codegen_sources/model/tools
 git clone https://github.com/glample/fastBPE.git
 
 cd fastBPE
 g++ -std=c++11 -pthread -O3 fastBPE/main.cc -IfastBPE -o fast
 python setup.py install
-cd ../../../../
+cd ..
 
 mkdir tree-sitter
 cd tree-sitter
