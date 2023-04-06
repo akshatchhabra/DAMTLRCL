@@ -127,3 +127,15 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+CodeGen/error.txt
+CodeGen/output.txt
+CodeGen/error_preprocess.txt
+CodeGen/output_preprocess.txt
+CodeGen/codegen_sources/test_generation/evosuite-1.1.0.jar
+CodeGen/error_train_with_reload_csharp_ruby.txt
+CodeGen/error_train_with_reload_csharp.txt
+CodeGen/error_train.txt
+CodeGen/output_train_with_reload_csharp_ruby.txt
+CodeGen/output_train_with_reload_csharp.txt
+CodeGen/output_train.txt
+CodeGen/TransCoder_model_1.pth
