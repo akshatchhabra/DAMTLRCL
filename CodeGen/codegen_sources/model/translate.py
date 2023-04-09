@@ -18,6 +18,9 @@ import torch
 from codegen_sources.model.src.logger import create_logger
 from codegen_sources.preprocessing.lang_processors.cpp_processor import CppProcessor
 from codegen_sources.preprocessing.lang_processors.java_processor import JavaProcessor
+
+from codegen_sources.preprocessing.lang_processors.csharp_processor import CSharpProcessor
+from codegen_sources.preprocessing.lang_processors.ruby_processor import RubyProcessor
 from codegen_sources.preprocessing.lang_processors.python_processor import (
     PythonProcessor,
 )
@@ -36,7 +39,7 @@ from codegen_sources.model.src.utils import restore_roberta_segmentation_sentenc
 from codegen_sources.model.src.model import build_model
 from codegen_sources.model.src.utils import AttrDict, TREE_SITTER_ROOT
 
-SUPPORTED_LANGUAGES = ["cpp", "java", "python"]
+SUPPORTED_LANGUAGES = ["csharp", "ruby", "java", "python", "cpp"]
 
 logger = create_logger(None, 0)
 
@@ -127,8 +130,8 @@ class Translator:
         input_code,
         lang1,
         lang2,
-        suffix1="_sa",
-        suffix2="_sa",
+        suffix1="_monolingual",
+        suffix2="_monolingual",
         n=1,
         beam_size=1,
         sample_temperature=None,
