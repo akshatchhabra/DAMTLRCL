@@ -307,7 +307,7 @@ class Evaluator(object):
                 # machine translation task (evaluate perplexity and accuracy)
                 for keys in set(
                     params.mt_steps
-                    + [(l2, l3) for _, l2, l3 in params.bt_steps]
+                    # + [(l2, l3) for _, l2, l3 in params.bt_steps]
                     + [(l1, l2) for l1, langs2 in params.st_steps for l2 in langs2]
                     + [(l2, l1) for l1, langs2 in params.st_steps for l2 in langs2]
                     + [
