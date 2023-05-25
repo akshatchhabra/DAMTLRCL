@@ -139,3 +139,15 @@ CodeGen/output_train_with_reload_csharp_ruby.txt
 CodeGen/output_train_with_reload_csharp.txt
 CodeGen/output_train.txt
 CodeGen/TransCoder_model_1.pth
+CodeGen/error_train_with_csharp_reload_to_ruby.txt
+CodeGen/output_train_with_csharp_reload_to_ruby.txt
+CodeGen/PYTHON_COMMAND
+Translations/
+CodeGen/test_data
+CodeGen/test_data_sa
+CodeGen/error_back_translation.txt
+CodeGen/error_mlm_cpp_csharp_mapped_DA.txt
+CodeGen/error_preprocess_bt.txt
+CodeGen/output_back_translation.txt
+CodeGen/output_mlm_cpp_csharp_mapped_DA.txt
+CodeGen/output_preprocess_bt.txt
